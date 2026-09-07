@@ -1,0 +1,6 @@
+adlc-web/dist/
+adlc-site.zip
+.DS_Store
+__pycache__/
+*.pyc
+adlc-source.zip
