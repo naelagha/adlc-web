@@ -1,0 +1,446 @@
+{
+  "categories": [
+    {
+      "id": "cycling",
+      "color": "#E8365E",
+      "en": "Cycling",
+      "ar": "دراجات"
+    },
+    {
+      "id": "yoga",
+      "color": "#7A4A9E",
+      "en": "Yoga & Pilates",
+      "ar": "يوغا وبيلاتس"
+    },
+    {
+      "id": "strength",
+      "color": "#2C6FA8",
+      "en": "Strength",
+      "ar": "قوة"
+    },
+    {
+      "id": "combat",
+      "color": "#D42A2A",
+      "en": "Combat",
+      "ar": "قتالية"
+    },
+    {
+      "id": "dance",
+      "color": "#F58220",
+      "en": "Dance",
+      "ar": "رقص"
+    },
+    {
+      "id": "aqua",
+      "color": "#1B9BD8",
+      "en": "Aqua",
+      "ar": "مائية"
+    },
+    {
+      "id": "wellness",
+      "color": "#2F8E86",
+      "en": "Wellness",
+      "ar": "عافية"
+    }
+  ],
+  "studios": [
+    {
+      "id": "cycle",
+      "en": "Cycling Studio",
+      "ar": "قاعة الدراجات"
+    },
+    {
+      "id": "yoga",
+      "en": "Yoga Studio",
+      "ar": "قاعة اليوغا"
+    },
+    {
+      "id": "hall",
+      "en": "Studio Hall",
+      "ar": "القاعة الرئيسية"
+    },
+    {
+      "id": "pool",
+      "en": "Indoor Pool",
+      "ar": "المسبح الداخلي"
+    }
+  ],
+  "days": [
+    {
+      "id": "sun",
+      "en": "Sun",
+      "ar": "الأحد",
+      "short_en": "Sun",
+      "short_ar": "أحد"
+    },
+    {
+      "id": "mon",
+      "en": "Mon",
+      "ar": "الاثنين",
+      "short_en": "Mon",
+      "short_ar": "إثن"
+    },
+    {
+      "id": "tue",
+      "en": "Tue",
+      "ar": "الثلاثاء",
+      "short_en": "Tue",
+      "short_ar": "ثلا"
+    },
+    {
+      "id": "wed",
+      "en": "Wed",
+      "ar": "الأربعاء",
+      "short_en": "Wed",
+      "short_ar": "أرب"
+    },
+    {
+      "id": "thu",
+      "en": "Thu",
+      "ar": "الخميس",
+      "short_en": "Thu",
+      "short_ar": "خمي"
+    },
+    {
+      "id": "fri",
+      "en": "Fri",
+      "ar": "الجمعة",
+      "short_en": "Fri",
+      "short_ar": "جمع"
+    },
+    {
+      "id": "sat",
+      "en": "Sat",
+      "ar": "السبت",
+      "short_en": "Sat",
+      "short_ar": "سبت"
+    }
+  ],
+  "sessions": [
+    {
+      "day": "sun",
+      "time": "08:00",
+      "mins": 45,
+      "cat": "cycling",
+      "studio": "cycle",
+      "cap": 19,
+      "booked": 10,
+      "en": "RPM",
+      "ar": "آر بي إم",
+      "coach_en": "Alena",
+      "coach_ar": "ألينا"
+    },
+    {
+      "day": "sun",
+      "time": "09:00",
+      "mins": 50,
+      "cat": "yoga",
+      "studio": "yoga",
+      "cap": 16,
+      "booked": 13,
+      "en": "Reformer Pilates",
+      "ar": "بيلاتس ريفورمر",
+      "coach_en": "Nesrine",
+      "coach_ar": "نسرين"
+    },
+    {
+      "day": "sun",
+      "time": "10:00",
+      "mins": 60,
+      "cat": "wellness",
+      "studio": "yoga",
+      "cap": 20,
+      "booked": 9,
+      "en": "Hatha Yoga",
+      "ar": "يوغا هاثا",
+      "coach_en": "Sara",
+      "coach_ar": "سارة"
+    },
+    {
+      "day": "sun",
+      "time": "11:00",
+      "mins": 45,
+      "cat": "aqua",
+      "studio": "pool",
+      "cap": 14,
+      "booked": 14,
+      "en": "Aqua Fit",
+      "ar": "تمارين مائية",
+      "coach_en": "Rania",
+      "coach_ar": "رانيا"
+    },
+    {
+      "day": "sun",
+      "time": "18:00",
+      "mins": 45,
+      "cat": "strength",
+      "studio": "hall",
+      "cap": 18,
+      "booked": 15,
+      "en": "Muscle Pump",
+      "ar": "عضلات وقوة",
+      "coach_en": "Firyal",
+      "coach_ar": "فريال"
+    },
+    {
+      "day": "sun",
+      "time": "19:00",
+      "mins": 60,
+      "cat": "dance",
+      "studio": "hall",
+      "cap": 24,
+      "booked": 10,
+      "en": "Belly Dance",
+      "ar": "رقص شرقي",
+      "coach_en": "Hajar",
+      "coach_ar": "هاجر"
+    },
+    {
+      "day": "mon",
+      "time": "08:00",
+      "mins": 45,
+      "cat": "strength",
+      "studio": "hall",
+      "cap": 18,
+      "booked": 8,
+      "en": "Tabata",
+      "ar": "تاباتا",
+      "coach_en": "Firyal",
+      "coach_ar": "فريال"
+    },
+    {
+      "day": "mon",
+      "time": "10:00",
+      "mins": 60,
+      "cat": "dance",
+      "studio": "hall",
+      "cap": 24,
+      "booked": 16,
+      "en": "Zumba",
+      "ar": "زومبا",
+      "coach_en": "Hajar",
+      "coach_ar": "هاجر"
+    },
+    {
+      "day": "mon",
+      "time": "18:00",
+      "mins": 45,
+      "cat": "combat",
+      "studio": "hall",
+      "cap": 16,
+      "booked": 12,
+      "en": "Combat Fitness",
+      "ar": "لياقة قتالية",
+      "coach_en": "Noor",
+      "coach_ar": "نور"
+    },
+    {
+      "day": "mon",
+      "time": "19:00",
+      "mins": 45,
+      "cat": "cycling",
+      "studio": "cycle",
+      "cap": 19,
+      "booked": 17,
+      "en": "RPM",
+      "ar": "آر بي إم",
+      "coach_en": "Alena",
+      "coach_ar": "ألينا"
+    },
+    {
+      "day": "tue",
+      "time": "08:00",
+      "mins": 45,
+      "cat": "cycling",
+      "studio": "cycle",
+      "cap": 19,
+      "booked": 12,
+      "en": "RPM",
+      "ar": "آر بي إم",
+      "coach_en": "Alena",
+      "coach_ar": "ألينا"
+    },
+    {
+      "day": "tue",
+      "time": "09:00",
+      "mins": 50,
+      "cat": "yoga",
+      "studio": "yoga",
+      "cap": 16,
+      "booked": 14,
+      "en": "Reformer Pilates",
+      "ar": "بيلاتس ريفورمر",
+      "coach_en": "Nesrine",
+      "coach_ar": "نسرين"
+    },
+    {
+      "day": "tue",
+      "time": "18:00",
+      "mins": 45,
+      "cat": "strength",
+      "studio": "hall",
+      "cap": 18,
+      "booked": 16,
+      "en": "Muscle Pump",
+      "ar": "عضلات وقوة",
+      "coach_en": "Firyal",
+      "coach_ar": "فريال"
+    },
+    {
+      "day": "tue",
+      "time": "20:00",
+      "mins": 45,
+      "cat": "aqua",
+      "studio": "pool",
+      "cap": 14,
+      "booked": 6,
+      "en": "Aqua Fit",
+      "ar": "تمارين مائية",
+      "coach_en": "Rania",
+      "coach_ar": "رانيا"
+    },
+    {
+      "day": "wed",
+      "time": "09:00",
+      "mins": 60,
+      "cat": "wellness",
+      "studio": "yoga",
+      "cap": 20,
+      "booked": 11,
+      "en": "Hatha Yoga",
+      "ar": "يوغا هاثا",
+      "coach_en": "Sara",
+      "coach_ar": "سارة"
+    },
+    {
+      "day": "wed",
+      "time": "18:00",
+      "mins": 45,
+      "cat": "combat",
+      "studio": "hall",
+      "cap": 16,
+      "booked": 13,
+      "en": "Combat Fitness",
+      "ar": "لياقة قتالية",
+      "coach_en": "Noor",
+      "coach_ar": "نور"
+    },
+    {
+      "day": "wed",
+      "time": "19:00",
+      "mins": 60,
+      "cat": "dance",
+      "studio": "hall",
+      "cap": 24,
+      "booked": 18,
+      "en": "Zumba",
+      "ar": "زومبا",
+      "coach_en": "Hajar",
+      "coach_ar": "هاجر"
+    },
+    {
+      "day": "thu",
+      "time": "08:00",
+      "mins": 45,
+      "cat": "strength",
+      "studio": "hall",
+      "cap": 18,
+      "booked": 9,
+      "en": "Tabata",
+      "ar": "تاباتا",
+      "coach_en": "Firyal",
+      "coach_ar": "فريال"
+    },
+    {
+      "day": "thu",
+      "time": "18:00",
+      "mins": 45,
+      "cat": "strength",
+      "studio": "hall",
+      "cap": 18,
+      "booked": 17,
+      "en": "Muscle Pump",
+      "ar": "عضلات وقوة",
+      "coach_en": "Firyal",
+      "coach_ar": "فريال"
+    },
+    {
+      "day": "thu",
+      "time": "19:00",
+      "mins": 60,
+      "cat": "dance",
+      "studio": "hall",
+      "cap": 24,
+      "booked": 12,
+      "en": "Belly Dance",
+      "ar": "رقص شرقي",
+      "coach_en": "Hajar",
+      "coach_ar": "هاجر"
+    },
+    {
+      "day": "fri",
+      "time": "09:00",
+      "mins": 60,
+      "cat": "wellness",
+      "studio": "yoga",
+      "cap": 20,
+      "booked": 7,
+      "en": "Hatha Yoga",
+      "ar": "يوغا هاثا",
+      "coach_en": "Sara",
+      "coach_ar": "سارة"
+    },
+    {
+      "day": "fri",
+      "time": "10:00",
+      "mins": 45,
+      "cat": "aqua",
+      "studio": "pool",
+      "cap": 14,
+      "booked": 5,
+      "en": "Aqua Fit",
+      "ar": "تمارين مائية",
+      "coach_en": "Rania",
+      "coach_ar": "رانيا"
+    },
+    {
+      "day": "sat",
+      "time": "09:00",
+      "mins": 45,
+      "cat": "cycling",
+      "studio": "cycle",
+      "cap": 19,
+      "booked": 11,
+      "en": "RPM",
+      "ar": "آر بي إم",
+      "coach_en": "Alena",
+      "coach_ar": "ألينا"
+    },
+    {
+      "day": "sat",
+      "time": "10:00",
+      "mins": 60,
+      "cat": "dance",
+      "studio": "hall",
+      "cap": 24,
+      "booked": 15,
+      "en": "Zumba",
+      "ar": "زومبا",
+      "coach_en": "Hajar",
+      "coach_ar": "هاجر"
+    },
+    {
+      "day": "sat",
+      "time": "18:00",
+      "mins": 45,
+      "cat": "strength",
+      "studio": "hall",
+      "cap": 18,
+      "booked": 13,
+      "en": "Muscle Pump",
+      "ar": "عضلات وقوة",
+      "coach_en": "Firyal",
+      "coach_ar": "فريال"
+    }
+  ]
+}

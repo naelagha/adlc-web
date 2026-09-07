@@ -1,0 +1,57 @@
+{
+  "spaces": [
+    { "id": "festival", "en": "The festival space", "ar": "الساحة المركزية",
+      "d_en": "The semi-covered heart of the club, with the outdoor pool and solarium. Evenings only for private hire.",
+      "d_ar": "قلب النادي شبه المغطى، مع المسبح الخارجي ومنطقة التشمس. للتأجير الخاص في المساء فقط.",
+      "seated": 180, "standing": 400, "img": "hero" },
+    { "id": "atrium", "en": "The atrium", "ar": "البهو الرئيسي",
+      "d_en": "Reception under the gold rosette screen. Best for arrivals, showcases and drinks before dinner.",
+      "d_ar": "الاستقبال تحت الشاشة الذهبية المزخرفة. مثالي للاستقبال والعروض والضيافة قبل العشاء.",
+      "seated": 90, "standing": 220, "img": "atrium" },
+    { "id": "dining", "en": "Private dining room", "ar": "قاعة الطعام الخاصة",
+      "d_en": "Off the main restaurant, with its own service. Set menus in Emirati, Levantine or European.",
+      "d_ar": "بجانب المطعم الرئيسي، بخدمة مستقلة. قوائم إماراتية أو شامية أو أوروبية.",
+      "seated": 40, "standing": 60, "img": "dining" }
+  ],
+  "occasions": [
+    { "id": "birthday",   "en": "Birthday",    "ar": "عيد ميلاد" },
+    { "id": "henna",      "en": "Henna",       "ar": "حنّة" },
+    { "id": "shower",     "en": "Baby shower", "ar": "استقبال مولود" },
+    { "id": "graduation", "en": "Graduation",  "ar": "تخرّج" },
+    { "id": "corporate",  "en": "Corporate",   "ar": "مناسبة عمل" },
+    { "id": "other",      "en": "Other",       "ar": "أخرى" }
+  ],
+  "rules": [
+    { "m": "no",  "en": "Male guests", "ar": "الضيوف من الرجال",
+      "d_en": "The club is women-only for the whole of your event, including arrivals and departures. Boys are welcome up to age 12.",
+      "d_ar": "النادي للسيدات فقط طوال مناسبتك، بما في ذلك الوصول والمغادرة. الأولاد مرحّب بهم حتى سن ١٢." },
+    { "m": "ask", "en": "Male contractors", "ar": "الفنيون من الرجال",
+      "d_en": "Set-up and breakdown by male crew can be arranged outside opening hours, supervised, with names submitted 72 hours ahead.",
+      "d_ar": "يمكن ترتيب التجهيز والتفكيك بطاقم من الرجال خارج ساعات العمل، تحت إشراف، مع تقديم الأسماء قبل ٧٢ ساعة." },
+    { "m": "yes", "en": "Your own photographer", "ar": "مصوّرتك الخاصة",
+      "d_en": "If she is a woman and is briefed on the club's photography rules. We can recommend three.",
+      "d_ar": "إن كانت سيدة ومطّلعة على قواعد التصوير في النادي. يمكننا ترشيح ثلاث مصوّرات." },
+    { "m": "yes", "en": "Outside catering", "ar": "تقديم طعام خارجي",
+      "d_en": "From an approved list, or our own kitchen. Halal only; no alcohol anywhere on site.",
+      "d_ar": "من قائمة معتمدة، أو من مطبخ النادي. حلال فقط، ولا كحول في أي مكان داخل النادي." },
+    { "m": "ask", "en": "The lagoon and beach", "ar": "البحيرة والشاطئ",
+      "d_en": "Private hire is possible outside member hours. Lifeguard cover is compulsory and is charged.",
+      "d_ar": "التأجير الخاص ممكن خارج ساعات العضوات. وجود منقذة إلزامي وتُحتسب تكلفته." },
+    { "m": "yes", "en": "Naming your guests", "ar": "تسمية الضيوف",
+      "d_en": "Guests must be named at the gate so we can admit them. We do not photograph them, and we do not keep the list after your event.",
+      "d_ar": "يجب تسمية الضيوف عند البوابة للسماح بدخولهن. لا نصوّرهن، ولا نحتفظ بالقائمة بعد المناسبة." }
+  ],
+  "fields": {
+    "occasion": { "en": "What are you planning", "ar": "ما المناسبة" },
+    "space":    { "en": "Space",   "ar": "المكان" },
+    "date":     { "en": "Date",    "ar": "التاريخ" },
+    "guests":   { "en": "Guests",  "ar": "عدد الضيوف" },
+    "name":     { "en": "Your name", "ar": "اسمك" },
+    "mobile":   { "en": "Mobile",  "ar": "رقم الهاتف" },
+    "notes":    { "en": "Anything we should know", "ar": "أي ملاحظات" }
+  },
+  "sla": {
+    "en": "We answer within one working day. Enquiries after 18:00 are answered the next morning — in writing, not a callback you have to wait for.",
+    "ar": "نرد خلال يوم عمل واحد. الاستفسارات بعد ٦:٠٠ م يُرد عليها صباح اليوم التالي — كتابةً، دون انتظار اتصال."
+  }
+}

@@ -1,0 +1,614 @@
+{
+  "membership": {
+    "title": {
+      "en": "Membership",
+      "ar": "العضوية"
+    },
+    "lede": {
+      "en": "One membership, one card, one place. Prices are published here in full — no callback required.",
+      "ar": "عضوية واحدة، وبطاقة واحدة، ومكان واحد. الأسعار منشورة هنا كاملة — دون الحاجة إلى اتصال."
+    },
+    "tiers": [
+      {
+        "id": "silver",
+        "en": "Silver",
+        "ar": "الفضية",
+        "price": {
+          "annual": null,
+          "monthly": null
+        },
+        "feat": false,
+        "inc_en": [
+          "Gym and studios",
+          "Group classes",
+          "Outdoor pool"
+        ],
+        "inc_ar": [
+          "الصالة والقاعات",
+          "الحصص الجماعية",
+          "المسبح الخارجي"
+        ]
+      },
+      {
+        "id": "gold",
+        "en": "Gold",
+        "ar": "الذهبية",
+        "price": {
+          "annual": null,
+          "monthly": null
+        },
+        "feat": true,
+        "inc_en": [
+          "Everything in Silver",
+          "Indoor pool, sauna and spa",
+          "The lagoon and beach",
+          "4 guest passes"
+        ],
+        "inc_ar": [
+          "كل ما في الفضية",
+          "المسبح الداخلي والساونا والسبا",
+          "البحيرة والشاطئ",
+          "٤ بطاقات ضيافة"
+        ]
+      },
+      {
+        "id": "platinum",
+        "en": "Platinum",
+        "ar": "البلاتينية",
+        "price": {
+          "annual": null,
+          "monthly": null
+        },
+        "feat": false,
+        "inc_en": [
+          "Everything in Gold",
+          "Nutritionist consultation",
+          "12 guest passes"
+        ],
+        "inc_ar": [
+          "كل ما في الذهبية",
+          "استشارة تغذية",
+          "١٢ بطاقة ضيافة"
+        ]
+      }
+    ],
+    "note": {
+      "en": "Prices are set by the club and are not yet published. This page is built to display them the day they are.",
+      "ar": "الأسعار يحددها النادي ولم تُنشر بعد. هذه الصفحة جاهزة لعرضها فور توفرها."
+    }
+  },
+  "lagoon": {
+    "title": {
+      "en": "The lagoon and beach",
+      "ar": "البحيرة والشاطئ"
+    },
+    "kicker": {
+      "en": "Facilities",
+      "ar": "المرافق"
+    },
+    "headline": {
+      "en": "Swim without the abaya",
+      "ar": "اسبحي بحرية تامة"
+    },
+    "body": {
+      "en": [
+        "A lagoon between 120 and 150 metres wide sits in front of the club beach, closed off from open water by strips of land and breakwaters. It was built so that members can swim and sunbathe out of sight of passing boats.",
+        "Privacy here is not a rule on a sign. It is built into the coastline.",
+        "The lagoon sits inside a seafront park of 180,000 square metres. Loungers and shade run along the sand; towels are at the beach desk. The outdoor pool and solarium are a short walk behind, in the semi-covered festival space at the centre of the club house."
+      ],
+      "ar": [
+        "بحيرة يتراوح عرضها بين ١٢٠ و١٥٠ متراً أمام شاطئ النادي، مفصولة عن البحر المفتوح بحواجز وألسنة أرضية. أُنشئت خصيصاً لتتمكن العضوات من السباحة والاستجمام بعيداً عن أعين القوارب المارة.",
+        "الخصوصية هنا ليست لافتة على الجدار، بل جزء من تصميم الساحل نفسه.",
+        "تقع البحيرة داخل حديقة على الواجهة البحرية مساحتها ١٨٠٬٠٠٠ متر مربع. الكراسي والمظلات ممتدة على الرمل، والمناشف متوفرة عند مكتب الشاطئ. المسبح الخارجي ومنطقة التشمس على بعد خطوات، في الساحة المركزية شبه المغطاة."
+      ]
+    },
+    "facts": [
+      {
+        "en": "Hours",
+        "ar": "ساعات العمل",
+        "v_en": "06:00 – 21:00",
+        "v_ar": "٦:٠٠ ص – ٩:٠٠ م"
+      },
+      {
+        "en": "Access",
+        "ar": "الدخول",
+        "v_en": "All tiers",
+        "v_ar": "جميع العضويات"
+      },
+      {
+        "en": "Guests",
+        "ar": "الضيوف",
+        "v_en": "Gold and above",
+        "v_ar": "الذهبية فما فوق"
+      },
+      {
+        "en": "Lifeguard",
+        "ar": "الإنقاذ",
+        "v_en": "On duty, all hours",
+        "v_ar": "متوفر طوال الوقت"
+      },
+      {
+        "en": "Children",
+        "ar": "الأطفال",
+        "v_en": "Under 12 with an adult",
+        "v_ar": "دون ١٢ برفقة بالغة"
+      },
+      {
+        "en": "Photography",
+        "ar": "التصوير",
+        "v_en": "Not permitted",
+        "v_ar": "غير مسموح",
+        "warn": true
+      }
+    ]
+  },
+  "visit": {
+    "title": {
+      "en": "Visit",
+      "ar": "زيارتنا"
+    },
+    "lede": {
+      "en": "One address, one phone number, one set of opening hours. If you have seen a different number elsewhere, this is the one that is answered.",
+      "ar": "عنوان واحد، ورقم واحد، ومواعيد واحدة. إن رأيتِ رقماً مختلفاً في مكان آخر، فهذا هو الرقم الذي يُرد عليه."
+    },
+    "rows": [
+      {
+        "en": "Address",
+        "ar": "العنوان",
+        "v_en": "15th Street, Al Muzoun, W53, Abu Dhabi",
+        "v_ar": "شارع ١٥، المزون، غرب ٥٣، أبوظبي"
+      },
+      {
+        "en": "Telephone",
+        "ar": "الهاتف",
+        "v_en": "+971 50 260 6784",
+        "v_ar": "+971 50 260 6784"
+      },
+      {
+        "en": "Hours",
+        "ar": "المواعيد",
+        "v_en": "Daily 06:00 – 21:00",
+        "v_ar": "يومياً ٦:٠٠ ص – ٩:٠٠ م"
+      },
+      {
+        "en": "Admission",
+        "ar": "الدخول",
+        "v_en": "Women only. Boys welcome up to age 12.",
+        "v_ar": "للسيدات فقط. الأولاد مرحّب بهم حتى سن ١٢."
+      },
+      {
+        "en": "Parking",
+        "ar": "المواقف",
+        "v_en": "Free, on site",
+        "v_ar": "مجانية داخل النادي"
+      }
+    ]
+  },
+  "timetable": {
+    "title": {
+      "en": "Classes",
+      "ar": "الحصص"
+    },
+    "lede": {
+      "en": "Every class this week, filterable by day and by type. Bookable in the app; the timetable is data, not a picture.",
+      "ar": "جميع حصص هذا الأسبوع، مع إمكانية التصفية حسب اليوم والنوع. الحجز عبر التطبيق، والجدول بيانات لا صورة."
+    },
+    "filters": {
+      "all_en": "All",
+      "all_ar": "الكل",
+      "day_en": "Day",
+      "day_ar": "اليوم",
+      "type_en": "Type",
+      "type_ar": "النوع"
+    },
+    "states": {
+      "open_en": "{n} spots",
+      "open_ar": "{n} أماكن",
+      "few_en": "{n} left",
+      "few_ar": "بقي {n}",
+      "full_en": "Waitlist",
+      "full_ar": "قائمة انتظار"
+    },
+    "empty": {
+      "en": "No classes match those filters.",
+      "ar": "لا توجد حصص مطابقة."
+    }
+  },
+  "join": {
+    "title": {
+      "en": "Join the club",
+      "ar": "انضمي إلى النادي"
+    },
+    "lede": {
+      "en": "Four steps. No phone call, no callback, no waiting for business hours.",
+      "ar": "أربع خطوات. دون اتصال، ودون انتظار، وفي أي وقت."
+    },
+    "steps": [
+      {
+        "en": "Membership",
+        "ar": "العضوية"
+      },
+      {
+        "en": "About you",
+        "ar": "بياناتك"
+      },
+      {
+        "en": "Payment",
+        "ar": "الدفع"
+      },
+      {
+        "en": "Done",
+        "ar": "تم"
+      }
+    ],
+    "billing": {
+      "annual": {
+        "en": "Annual",
+        "ar": "سنوي"
+      },
+      "monthly": {
+        "en": "Monthly",
+        "ar": "شهري"
+      },
+      "save": {
+        "en": "Annual includes the joining fee.",
+        "ar": "الاشتراك السنوي يشمل رسوم الانضمام."
+      }
+    },
+    "fields": {
+      "name": {
+        "en": "Full name",
+        "ar": "الاسم الكامل"
+      },
+      "mobile": {
+        "en": "Mobile",
+        "ar": "رقم الهاتف"
+      },
+      "email": {
+        "en": "Email",
+        "ar": "البريد الإلكتروني"
+      },
+      "dob": {
+        "en": "Date of birth",
+        "ar": "تاريخ الميلاد"
+      },
+      "eid": {
+        "en": "Emirates ID",
+        "ar": "رقم الهوية الإماراتية"
+      },
+      "eid_hint": {
+        "en": "Checked at the desk on your first visit. Do not upload a photograph of it.",
+        "ar": "يُتحقق منها عند الاستقبال في زيارتك الأولى. لا حاجة لرفع صورة عنها."
+      },
+      "required": {
+        "en": "Required",
+        "ar": "مطلوب"
+      }
+    },
+    "eligibility": {
+      "en": "Membership is for women aged 16 and over. Girls under 16 join through the academy; children under 4 through Children's House.",
+      "ar": "العضوية للسيدات من سن ١٦ فأكثر. الفتيات دون ١٦ عبر الأكاديمية، والأطفال دون ٤ عبر حضانة النادي."
+    },
+    "consents": [
+      {
+        "id": "health",
+        "req": true,
+        "en": "Health declaration",
+        "ar": "إقرار صحي",
+        "d_en": "I have no condition that makes exercise unsafe, or I have discussed it with my doctor.",
+        "d_ar": "لا أعاني من حالة تجعل ممارسة الرياضة غير آمنة، أو أنني ناقشت ذلك مع طبيبتي."
+      },
+      {
+        "id": "rules",
+        "req": true,
+        "en": "Club rules and privacy notice",
+        "ar": "قواعد النادي وإشعار الخصوصية",
+        "d_en": "Including the photography rules: no member is photographed without being asked.",
+        "d_ar": "بما في ذلك قواعد التصوير: لا تُصوَّر أي عضوة دون إذنها."
+      },
+      {
+        "id": "marketing",
+        "req": false,
+        "en": "News about classes and offers",
+        "ar": "أخبار الحصص والعروض",
+        "d_en": "Optional. You will still receive messages about your own bookings either way.",
+        "d_ar": "اختياري. ستصلك رسائل حجوزاتك في الحالتين."
+      }
+    ],
+    "summary": {
+      "title": {
+        "en": "Your membership",
+        "ar": "عضويتك"
+      },
+      "tier": {
+        "en": "Tier",
+        "ar": "الفئة"
+      },
+      "billing": {
+        "en": "Billing",
+        "ar": "الدفع"
+      },
+      "starts": {
+        "en": "Starts",
+        "ar": "تبدأ"
+      },
+      "joining": {
+        "en": "Joining fee",
+        "ar": "رسوم الانضمام"
+      },
+      "included": {
+        "en": "Included",
+        "ar": "مشمولة"
+      },
+      "vat": {
+        "en": "VAT 5%",
+        "ar": "ضريبة القيمة المضافة ٥٪"
+      },
+      "total": {
+        "en": "Total today",
+        "ar": "الإجمالي اليوم"
+      },
+      "today": {
+        "en": "Today",
+        "ar": "اليوم"
+      }
+    },
+    "pay": {
+      "heading": {
+        "en": "Payment",
+        "ar": "الدفع"
+      },
+      "gateway": {
+        "en": "Continue to secure payment",
+        "ar": "المتابعة إلى الدفع الآمن"
+      },
+      "explain": {
+        "en": "Payment is taken on the gateway's own secure page, in AED. Card details are never entered on, or stored by, the club's site.",
+        "ar": "تتم عملية الدفع على صفحة بوابة الدفع الآمنة بالدرهم الإماراتي. لا تُدخل بيانات البطاقة على موقع النادي ولا تُحفظ لديه."
+      },
+      "renew": {
+        "en": "Renew automatically",
+        "ar": "التجديد التلقائي",
+        "d_en": "We will email you 30 days before. You can cancel or freeze in the app at any time.",
+        "d_ar": "سنراسلك قبل ٣٠ يوماً. يمكنك الإلغاء أو التجميد من التطبيق في أي وقت."
+      }
+    },
+    "done": {
+      "title": {
+        "en": "You're a member",
+        "ar": "أصبحتِ عضوة"
+      },
+      "lede": {
+        "en": "Your card is ready. Scan it at the gate from today.",
+        "ar": "بطاقتك جاهزة. امسحيها عند البوابة من اليوم."
+      },
+      "next": {
+        "en": "Start here",
+        "ar": "ابدئي من هنا"
+      },
+      "links": [
+        {
+          "en": "Book your first class",
+          "ar": "احجزي حصتك الأولى",
+          "href": "timetable.html"
+        },
+        {
+          "en": "See the lagoon",
+          "ar": "تعرّفي على البحيرة",
+          "href": "lagoon.html"
+        },
+        {
+          "en": "Plan your visit",
+          "ar": "خطّطي لزيارتك",
+          "href": "visit.html"
+        }
+      ]
+    },
+    "demo": {
+      "en": "Prototype: nothing on this page is sent anywhere, no data is stored, and no payment can be taken. The payment step shows where the gateway's hosted checkout is handed control.",
+      "ar": "نموذج أولي: لا تُرسل أي بيانات من هذه الصفحة ولا تُحفظ، ولا يمكن إتمام أي عملية دفع. خطوة الدفع توضح مكان تسليم العملية إلى بوابة الدفع."
+    },
+    "nav": {
+      "back": {
+        "en": "Back",
+        "ar": "رجوع"
+      },
+      "next": {
+        "en": "Continue",
+        "ar": "متابعة"
+      }
+    }
+  },
+  "events": {
+    "title": {
+      "en": "Events",
+      "ar": "الفعاليات"
+    },
+    "lede": {
+      "en": "Tournaments, workshops, national days and member socials. Everything here is bookable, and everything that has ended comes off the page.",
+      "ar": "بطولات وورش وأيام وطنية ولقاءات للعضوات. كل ما هنا قابل للحجز، وما ينتهي يُزال من الصفحة."
+    },
+    "filter": {
+      "en": "Type",
+      "ar": "النوع"
+    },
+    "empty": {
+      "en": "No events of that type are coming up.",
+      "ar": "لا توجد فعاليات من هذا النوع قريباً."
+    },
+    "changes": {
+      "en": "What changes for members",
+      "ar": "ما الذي يتغير للعضوات"
+    },
+    "back": {
+      "en": "All events",
+      "ar": "كل الفعاليات"
+    },
+    "hire_link": {
+      "en": "Planning something of your own? See",
+      "ar": "تخططين لمناسبتك الخاصة؟ اطّلعي على"
+    }
+  },
+  "hire": {
+    "title": {
+      "en": "Venue hire",
+      "ar": "تأجير القاعات"
+    },
+    "lede": {
+      "en": "Birthdays, henna nights, baby showers, graduations and corporate days — in a venue that is women-only by default, which is the part no hotel can offer you.",
+      "ar": "أعياد ميلاد، وليالي حنّة، واستقبال مواليد، وحفلات تخرّج، ومناسبات عمل — في مكان للسيدات فقط، وهو ما لا يوفره أي فندق."
+    },
+    "rules_title": {
+      "en": "What you need to know before you ask",
+      "ar": "ما ينبغي معرفته قبل الاستفسار"
+    },
+    "rules_lede": {
+      "en": "These are the questions the front desk answers on every enquiry, and no venue-hire page asks them. So they go first, not in a PDF.",
+      "ar": "هذه أسئلة يجيب عنها الاستقبال في كل استفسار، ولا تطرحها صفحات التأجير عادةً. لذلك نضعها أولاً، لا في ملف مرفق."
+    },
+    "enquire": {
+      "en": "Enquire",
+      "ar": "استفسار"
+    },
+    "send": {
+      "en": "Send enquiry",
+      "ar": "إرسال الاستفسار"
+    }
+  },
+  "tenants": {
+    "title": {
+      "en": "At the club",
+      "ar": "في النادي"
+    },
+    "lede": {
+      "en": "Everything else under the same roof — beauty, childcare, music, dining and the shops that come and go. All bookable here, all women-only by default.",
+      "ar": "كل ما تحت السقف نفسه — تجميل ورعاية أطفال وموسيقى ومطاعم ومتاجر مؤقتة. جميعها قابلة للحجز هنا، وجميعها للسيدات فقط."
+    },
+    "filter": {
+      "en": "Category",
+      "ar": "الفئة"
+    },
+    "empty": {
+      "en": "Nothing in that category right now.",
+      "ar": "لا يوجد شيء في هذه الفئة حالياً."
+    },
+    "back": {
+      "en": "All of the club",
+      "ar": "كل ما في النادي"
+    },
+    "book": {
+      "en": "Book an appointment",
+      "ar": "احجزي موعداً"
+    },
+    "enquire": {
+      "en": "Enquire",
+      "ar": "استفسري"
+    },
+    "services_title": {
+      "en": "Services",
+      "ar": "الخدمات"
+    },
+    "svc_col": {
+      "en": "Service",
+      "ar": "الخدمة"
+    },
+    "dur_col": {
+      "en": "Duration",
+      "ar": "المدة"
+    },
+    "member_col": {
+      "en": "Member",
+      "ar": "العضوات"
+    },
+    "guest_col": {
+      "en": "Non-member",
+      "ar": "غير العضوات"
+    },
+    "rule": {
+      "en": "Tenants appear in the club's own chrome, with their names as content rather than as competing logos. There is one phone number on this site and it is the club's — a tenant enquiry is routed, not handed off.",
+      "ar": "تظهر الجهات المستأجرة ضمن هوية النادي، بأسمائها كمحتوى لا كشعارات منافسة. على هذا الموقع رقم واحد وهو رقم النادي — واستفسار أي جهة يُحوَّل داخلياً ولا يُحال خارجاً."
+    },
+    "rule_k": {
+      "en": "Co-branding rule",
+      "ar": "قاعدة العلامات المشتركة"
+    }
+  },
+  "academy": {
+    "title": {
+      "en": "Academy",
+      "ar": "الأكاديمية"
+    },
+    "lede": {
+      "en": "Structured coaching for girls from four to eighteen, on the club's own pitch, courts, studios and pool — with progression tracked term by term and one place to enrol in all of it.",
+      "ar": "تدريب منظّم للفتيات من أربع إلى ثماني عشرة سنة، على ملعب النادي وصالاته وقاعاته ومسبحه — مع متابعة التقدم فصلاً بفصل ومكان واحد للتسجيل في كل ذلك."
+    },
+    "terms_title": {
+      "en": "Terms and fees",
+      "ar": "الفصول والرسوم"
+    },
+    "terms_note": {
+      "en": "Fees are set by the academy and are not yet published. The table is built to hold them. Note that members and non-members are priced differently, which is itself an argument for publishing club prices alongside.",
+      "ar": "الرسوم تحددها الأكاديمية ولم تُنشر بعد. الجدول جاهز لعرضها. علماً بأن الأسعار تختلف بين العضوات وغير العضوات، وهو في حد ذاته سبب لنشر أسعار العضوية إلى جانبها."
+    },
+    "col_term": {
+      "en": "Term",
+      "ar": "الفصل"
+    },
+    "col_dates": {
+      "en": "Dates",
+      "ar": "التواريخ"
+    },
+    "col_sessions": {
+      "en": "Sessions",
+      "ar": "الحصص"
+    },
+    "col_member": {
+      "en": "Member",
+      "ar": "العضوات"
+    },
+    "col_guest": {
+      "en": "Non-member",
+      "ar": "غير العضوات"
+    },
+    "weekly": {
+      "en": "Weekly",
+      "ar": "أسبوعي"
+    },
+    "consent_title": {
+      "en": "Photography and your daughter",
+      "ar": "التصوير وابنتك"
+    },
+    "levels": {
+      "en": "Levels",
+      "ar": "المستويات"
+    },
+    "enrol": {
+      "en": "Enrol",
+      "ar": "التسجيل"
+    },
+    "back": {
+      "en": "All programmes",
+      "ar": "كل البرامج"
+    },
+    "where": {
+      "en": "Where",
+      "ar": "المكان"
+    },
+    "when": {
+      "en": "When",
+      "ar": "الموعد"
+    },
+    "coach": {
+      "en": "Coach",
+      "ar": "المدربة"
+    },
+    "ages": {
+      "en": "Ages",
+      "ar": "الأعمار"
+    },
+    "places": {
+      "en": "Places",
+      "ar": "الأماكن"
+    }
+  }
+}

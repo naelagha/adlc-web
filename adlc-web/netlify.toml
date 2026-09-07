@@ -1,0 +1,17 @@
+# Netlify build. The generator is Python and has no dependencies beyond the
+# standard library, so there is nothing to install.
+[build]
+  publish = "dist"
+  command = "python3 build.py"
+
+[build.environment]
+  PYTHON_VERSION = "3.11"
+
+# Belt and braces: the same headers are also written to dist/_headers by the
+# build, so a direct file upload carries them too.
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow, noarchive, noimageindex"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "no-referrer"

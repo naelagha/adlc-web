@@ -1,0 +1,398 @@
+{
+  "member": {
+    "name_en": "Fatima Al Hosani",
+    "name_ar": "فاطمة الحوسني",
+    "tier_en": "Gold",
+    "tier_ar": "الذهبية",
+    "no": "4471 0928",
+    "no_ar": "٤٤٧١ ٠٩٢٨",
+    "valid_en": "Valid to 31.03.2027",
+    "valid_ar": "سارية حتى ٣١.٠٣.٢٠٢٧",
+    "renews_days": 207,
+    "renews_pct": 57,
+    "child_en": "Noura",
+    "child_ar": "نورة"
+  },
+  "tabs": [
+    {
+      "id": "home",
+      "page": "app-home",
+      "en": "Home",
+      "ar": "الرئيسية"
+    },
+    {
+      "id": "timetable",
+      "page": "app-timetable",
+      "en": "Classes",
+      "ar": "الحصص"
+    },
+    {
+      "id": "facilities",
+      "page": "app-facilities",
+      "en": "Facilities",
+      "ar": "المرافق"
+    },
+    {
+      "id": "academy",
+      "page": "app-academy",
+      "en": "Academy",
+      "ar": "الأكاديمية"
+    },
+    {
+      "id": "account",
+      "page": "app-account",
+      "en": "Account",
+      "ar": "حسابي"
+    }
+  ],
+  "demo": {
+    "en": "Prototype of the member app. There is no sign-in, no data is stored, and nothing is sent anywhere — bookings you make here last until you reload the page.",
+    "ar": "نموذج أولي لتطبيق العضوات. لا يوجد تسجيل دخول، ولا تُحفظ أي بيانات، ولا يُرسل شيء — الحجوزات التي تجرينها هنا تبقى حتى تحديث الصفحة."
+  },
+  "home": {
+    "greeting_en": "Good morning, Fatima",
+    "greeting_ar": "صباح الخير، فاطمة",
+    "next_en": "Next booking",
+    "next_ar": "حجزك القادم",
+    "today_en": "Today at the club",
+    "today_ar": "اليوم في النادي",
+    "checkin_en": "Check in",
+    "checkin_ar": "تسجيل الحضور",
+    "all_en": "All classes",
+    "all_ar": "كل الحصص",
+    "scan_en": "Scan at the gate",
+    "scan_ar": "امسحي عند البوابة"
+  },
+  "alerts": [
+    {
+      "kind": "warn",
+      "en": "Indoor pool closes 14:00–16:00",
+      "ar": "إغلاق المسبح الداخلي ٢:٠٠–٤:٠٠ م",
+      "d_en": "Scheduled maintenance. The outdoor pool and lagoon are open as normal.",
+      "d_ar": "أعمال صيانة. المسبح الخارجي والبحيرة يعملان كالمعتاد."
+    },
+    {
+      "kind": "info",
+      "en": "Pink Walk registration is open",
+      "ar": "التسجيل في المشي الوردي مفتوح",
+      "d_en": "Saturday 3 October, 08:00. Two guests included.",
+      "d_ar": "السبت ٣ أكتوبر، ٨:٠٠ ص. مع ضيفتين."
+    }
+  ],
+  "bookings": {
+    "title_en": "My bookings",
+    "title_ar": "حجوزاتي",
+    "upcoming_en": "Upcoming",
+    "upcoming_ar": "القادمة",
+    "history_en": "History",
+    "history_ar": "السجل",
+    "rows": [
+      {
+        "when_en": "Today · 09:00",
+        "when_ar": "اليوم · ٩:٠٠ ص",
+        "cat": "yoga",
+        "en": "Reformer Pilates",
+        "ar": "بيلاتس ريفورمر",
+        "who_en": "Nesrine · Yoga Studio",
+        "who_ar": "نسرين · قاعة اليوغا",
+        "tag": "booked",
+        "tag_en": "Booked",
+        "tag_ar": "محجوزة",
+        "upcoming": true
+      },
+      {
+        "when_en": "Tue · 19:00",
+        "when_ar": "الثلاثاء · ٧:٠٠ م",
+        "cat": "aqua",
+        "en": "Aqua Fit",
+        "ar": "تمارين مائية",
+        "who_en": "Rania · Indoor Pool",
+        "who_ar": "رانيا · المسبح الداخلي",
+        "tag": "wait",
+        "tag_en": "Waitlist 2",
+        "tag_ar": "انتظار ٢",
+        "upcoming": true
+      },
+      {
+        "when_en": "03 Sep · 18:00",
+        "when_ar": "٣ سبتمبر · ٦:٠٠ م",
+        "cat": "strength",
+        "en": "Muscle Pump",
+        "ar": "عضلات وقوة",
+        "who_en": "Firyal · Studio Hall",
+        "who_ar": "فريال · القاعة الرئيسية",
+        "tag": "went",
+        "tag_en": "Attended",
+        "tag_ar": "حضرتِ"
+      },
+      {
+        "when_en": "02 Sep · 19:00",
+        "when_ar": "٢ سبتمبر · ٧:٠٠ م",
+        "cat": "dance",
+        "en": "Zumba",
+        "ar": "زومبا",
+        "who_en": "Hajar · Studio Hall",
+        "who_ar": "هاجر · القاعة الرئيسية",
+        "tag": "went",
+        "tag_en": "Attended",
+        "tag_ar": "حضرتِ"
+      },
+      {
+        "when_en": "01 Sep · 08:00",
+        "when_ar": "١ سبتمبر · ٨:٠٠ ص",
+        "cat": "cycling",
+        "en": "RPM",
+        "ar": "آر بي إم",
+        "who_en": "Alena · Cycling Studio",
+        "who_ar": "ألينا · قاعة الدراجات",
+        "tag": "miss",
+        "tag_en": "No-show",
+        "tag_ar": "لم تحضري"
+      },
+      {
+        "when_en": "31 Aug · 10:00",
+        "when_ar": "٣١ أغسطس · ١٠:٠٠ ص",
+        "cat": "wellness",
+        "en": "Hatha Yoga",
+        "ar": "يوغا هاثا",
+        "who_en": "Sara · Yoga Studio",
+        "who_ar": "سارة · قاعة اليوغا",
+        "tag": "canx",
+        "tag_en": "Cancelled",
+        "tag_ar": "ملغاة"
+      }
+    ],
+    "noclass_en": "No classes booked",
+    "noclass_ar": "لا حجوزات",
+    "week_en": "The rest of the week",
+    "week_ar": "بقية الأسبوع",
+    "restdays_en": [
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday"
+    ],
+    "restdays_ar": [
+      "الأربعاء",
+      "الخميس",
+      "الجمعة",
+      "السبت"
+    ]
+  },
+  "facilities": {
+    "title_en": "Facilities",
+    "title_ar": "المرافق",
+    "lede_en": "Open now, and what you can reserve.",
+    "lede_ar": "المفتوح الآن، وما يمكنك حجزه.",
+    "rows": [
+      {
+        "en": "The lagoon and beach",
+        "ar": "البحيرة والشاطئ",
+        "st": "open",
+        "v_en": "Open · until 21:00",
+        "v_ar": "مفتوحة · حتى ٩:٠٠ م",
+        "book": true
+      },
+      {
+        "en": "Indoor pool",
+        "ar": "المسبح الداخلي",
+        "st": "warn",
+        "v_en": "Closes 14:00–16:00",
+        "v_ar": "مغلق ٢:٠٠–٤:٠٠ م",
+        "book": true
+      },
+      {
+        "en": "Outdoor pool",
+        "ar": "المسبح الخارجي",
+        "st": "open",
+        "v_en": "Open",
+        "v_ar": "مفتوح",
+        "book": false
+      },
+      {
+        "en": "Fitness floor",
+        "ar": "صالة اللياقة",
+        "st": "open",
+        "v_en": "Open · quiet",
+        "v_ar": "مفتوحة · هادئة",
+        "book": false
+      },
+      {
+        "en": "Tennis courts",
+        "ar": "ملاعب التنس",
+        "st": "open",
+        "v_en": "2 of 4 free",
+        "v_ar": "٢ من ٤ متاحة",
+        "book": true
+      },
+      {
+        "en": "Blusher Salon & Spa",
+        "ar": "صالون وسبا بلَشر",
+        "st": "open",
+        "v_en": "Next 16:30",
+        "v_ar": "أقرب موعد ٤:٣٠ م",
+        "book": true
+      }
+    ],
+    "reserve_en": "Reserve",
+    "reserve_ar": "احجزي"
+  },
+  "academy": {
+    "title_en": "Academy",
+    "title_ar": "الأكاديمية",
+    "child_line_en": "Noura · Gymnastics · Level 3",
+    "child_line_ar": "نورة · الجمباز · المستوى ٣",
+    "next_en": "Next session",
+    "next_ar": "الحصة القادمة",
+    "next_v_en": "Sunday 16:30 · Yoga Studio",
+    "next_v_ar": "الأحد ٤:٣٠ م · قاعة اليوغا",
+    "term_en": "Autumn term",
+    "term_ar": "الفصل الخريفي",
+    "term_v_en": "14 Sep – 11 Dec · 24 sessions",
+    "term_v_ar": "١٤ سبتمبر – ١١ ديسمبر · ٢٤ حصة",
+    "attend_en": "Attendance",
+    "attend_ar": "الحضور",
+    "attend_v_en": "18 of 20",
+    "attend_v_ar": "١٨ من ٢٠",
+    "coach_en": "Coach",
+    "coach_ar": "المدربة",
+    "coach_v_en": "Mariam Saleh",
+    "coach_v_ar": "مريم صالح",
+    "consent_en": "Photography consent",
+    "consent_ar": "الموافقة على التصوير",
+    "consent_v_en": "Not given",
+    "consent_v_ar": "غير ممنوحة",
+    "consent_note_en": "Optional, asked per programme, and you can change it here at any time.",
+    "consent_note_ar": "اختيارية، تُطلب لكل برنامج، ويمكنك تغييرها هنا في أي وقت."
+  },
+  "account": {
+    "title_en": "Account",
+    "title_ar": "حسابي",
+    "renew_en": "Renew early",
+    "renew_ar": "التجديد المبكر",
+    "freeze_en": "Freeze",
+    "freeze_ar": "تجميد",
+    "renews_en": "Renews 31.03.2027",
+    "renews_ar": "تُجدَّد ٣١.٠٣.٢٠٢٧",
+    "days_en": "{n} days",
+    "days_ar": "{n} يوماً",
+    "month_en": "This month",
+    "month_ar": "هذا الشهر",
+    "stats": [
+      {
+        "en": "Classes attended",
+        "ar": "الحصص التي حضرتِها",
+        "v": 11
+      },
+      {
+        "en": "Visits",
+        "ar": "الزيارات",
+        "v": 16
+      },
+      {
+        "en": "Guest passes left",
+        "ar": "بطاقات الضيافة المتبقية",
+        "v": 2,
+        "of": 4
+      }
+    ],
+    "menu": [
+      {
+        "en": "My bookings",
+        "ar": "حجوزاتي",
+        "href": "app-bookings",
+        "v_en": "2 upcoming",
+        "v_ar": "٢ قادمة"
+      },
+      {
+        "en": "Payments and invoices",
+        "ar": "المدفوعات والفواتير",
+        "href": null
+      },
+      {
+        "en": "Guest passes",
+        "ar": "بطاقات الضيافة",
+        "href": null,
+        "v_en": "2 left",
+        "v_ar": "٢ متبقية"
+      },
+      {
+        "en": "Language",
+        "ar": "اللغة",
+        "href": null,
+        "v_en": "English",
+        "v_ar": "العربية"
+      },
+      {
+        "en": "Numerals",
+        "ar": "الأرقام",
+        "href": null,
+        "v_en": "Western",
+        "v_ar": "عربية"
+      },
+      {
+        "en": "Notifications",
+        "ar": "الإشعارات",
+        "href": null
+      }
+    ],
+    "signout_en": "Sign out",
+    "signout_ar": "تسجيل الخروج"
+  },
+  "book": {
+    "book_en": "Book",
+    "book_ar": "احجزي",
+    "booked_en": "Booked",
+    "booked_ar": "محجوزة",
+    "wait_en": "Join waitlist",
+    "wait_ar": "قائمة الانتظار",
+    "waiting_en": "On waitlist",
+    "waiting_ar": "في قائمة الانتظار"
+  },
+  "streak": {
+    "title_en": "Your week",
+    "title_ar": "أسبوعك",
+    "count_en": "{n} week streak",
+    "count_ar": "{n} أسبوع متتالٍ",
+    "days_en": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ],
+    "days_ar": [
+      "ح",
+      "ن",
+      "ث",
+      "ر",
+      "خ",
+      "ج",
+      "س"
+    ],
+    "done": [
+      1,
+      1,
+      0,
+      1,
+      1,
+      0,
+      0
+    ],
+    "today": 4,
+    "note_en": "Only you can see this. Nothing about your attendance is shown to other members.",
+    "note_ar": "أنتِ وحدك ترين هذا. لا يُعرض أي شيء عن حضورك لبقية العضوات."
+  },
+  "sheet": {
+    "counted_en": "You're counted in",
+    "counted_ar": "تم تسجيلك",
+    "cal_en": "Add to calendar",
+    "cal_ar": "أضيفي إلى التقويم",
+    "mine_en": "View my bookings",
+    "mine_ar": "عرض حجوزاتي",
+    "close_en": "Close",
+    "close_ar": "إغلاق"
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "categories": [
+    { "id": "beauty",   "en": "Beauty",   "ar": "التجميل" },
+    { "id": "children", "en": "Children", "ar": "الأطفال" },
+    { "id": "dining",   "en": "Dining",   "ar": "المطاعم" },
+    { "id": "learning", "en": "Learning", "ar": "التعلّم" },
+    { "id": "shops",    "en": "Shops",    "ar": "المتاجر" }
+  ],
+  "tenants": [
+    {
+      "id": "blusher", "cat": "beauty", "img": "lounge",
+      "en": "Blusher Salon & Spa", "ar": "صالون وسبا بلَشر",
+      "hours_en": "Daily 09:00 – 21:00 · Level 1", "hours_ar": "يومياً ٩:٠٠ ص – ٩:٠٠ م · الطابق الأول",
+      "d_en": "Hair, nails, facials, threading and massage, with a treatment suite for bridal and henna parties.",
+      "d_ar": "شعر وأظافر وعناية بالبشرة وخيط ومساج، مع جناح للعرائس وحفلات الحنّة.",
+      "state": "open", "state_en": "Booking open", "state_ar": "الحجز متاح",
+      "body_en": [
+        "The club's salon, on Level 1 beside the changing rooms. Every therapist is a woman, and the treatment suite can be booked alongside the private dining room for a bridal or henna party.",
+        "Members book in the app and pay at the counter or against their membership account. Non-members can book too — a salon appointment is one of the few ways into the building that does not require a membership, which makes it a front door rather than an amenity."
+      ],
+      "body_ar": [
+        "صالون النادي في الطابق الأول بجانب غرف تبديل الملابس. جميع الأخصائيات سيدات، ويمكن حجز جناح العلاج مع قاعة الطعام الخاصة لحفلات العرائس والحنّة.",
+        "تحجز العضوات عبر التطبيق ويدفعن عند الاستقبال أو على حساب العضوية. ويمكن لغير العضوات الحجز أيضاً — فموعد الصالون أحد الطرق القليلة لدخول النادي دون عضوية، ما يجعله باباً للانضمام لا مجرد خدمة."
+      ],
+      "services": [
+        { "en": "Blow-dry", "ar": "تجفيف وتصفيف", "d_en": "Wash, dry and style", "d_ar": "غسل وتجفيف وتصفيف", "mins": 45 },
+        { "en": "Signature facial", "ar": "عناية مميزة بالبشرة", "d_en": "With consultation", "d_ar": "مع استشارة", "mins": 60 },
+        { "en": "Deep-tissue massage", "ar": "مساج عميق", "d_en": "Female therapist", "d_ar": "أخصائية سيدة", "mins": 60 },
+        { "en": "Bridal package", "ar": "باقة العروس", "d_en": "Hair, make-up, henna", "d_ar": "شعر ومكياج وحنّة", "mins": 180 }
+      ],
+      "facts": [
+        { "en": "Today", "ar": "اليوم", "v_en": "16:30, 17:15, 19:00", "v_ar": "٤:٣٠، ٥:١٥، ٧:٠٠ م" },
+        { "en": "Therapists", "ar": "الأخصائيات", "v_en": "All female", "v_ar": "جميعهن سيدات" },
+        { "en": "Payment", "ar": "الدفع", "v_en": "Counter or membership account", "v_ar": "الاستقبال أو حساب العضوية" },
+        { "en": "Cancellation", "ar": "الإلغاء", "v_en": "Free until 4 hours before", "v_ar": "مجاني حتى ٤ ساعات قبل الموعد" },
+        { "en": "Non-members", "ar": "غير العضوات", "v_en": "Welcome, by appointment", "v_ar": "مرحّب بهن بموعد مسبق" }
+      ]
+    },
+    {
+      "id": "childrens-house", "cat": "children", "img": "atrium",
+      "en": "Children's House", "ar": "بيت الأطفال",
+      "hours_en": "Sun–Thu 07:30 – 14:00 · Ages 1–4", "hours_ar": "الأحد–الخميس ٧:٣٠ ص – ٢:٠٠ م · من ١ إلى ٤ سنوات",
+      "d_en": "Montessori nursery on site, with term enrolment and crèche hours for members while they train.",
+      "d_ar": "حضانة مونتيسوري داخل النادي، مع تسجيل فصلي وساعات رعاية للعضوات أثناء التمرين.",
+      "state": "waitlist", "state_en": "Waitlist · January intake", "state_ar": "قائمة انتظار · دفعة يناير",
+      "body_en": [
+        "A Montessori nursery inside the club, so a member can train, swim or take a class knowing her child is a hundred metres away rather than across the city.",
+        "Two arrangements: full term enrolment for ages one to four, and crèche hours booked by the session for members while they are in the building. Guardian consent for photography is asked separately, per programme, and can be withdrawn at any time."
+      ],
+      "body_ar": [
+        "حضانة مونتيسوري داخل النادي، لتتمكن العضوة من التمرين أو السباحة أو حضور حصة وطفلها على بُعد مئة متر لا في الطرف الآخر من المدينة.",
+        "خياران: تسجيل فصلي كامل من عمر سنة إلى أربع سنوات، وساعات رعاية تُحجز بالجلسة للعضوات أثناء وجودهن في النادي. تُطلب موافقة ولية الأمر على التصوير بشكل منفصل لكل برنامج، ويمكن سحبها في أي وقت."
+      ],
+      "services": [],
+      "facts": [
+        { "en": "Ages", "ar": "الأعمار", "v_en": "1 – 4 years", "v_ar": "١ – ٤ سنوات" },
+        { "en": "Term enrolment", "ar": "التسجيل الفصلي", "v_en": "Next intake January", "v_ar": "الدفعة القادمة يناير" },
+        { "en": "Crèche hours", "ar": "ساعات الرعاية", "v_en": "By the session, members only", "v_ar": "بالجلسة، للعضوات فقط" },
+        { "en": "Photography", "ar": "التصوير", "v_en": "Separate consent, revocable", "v_ar": "موافقة منفصلة قابلة للسحب", "warn": true }
+      ]
+    },
+    {
+      "id": "restaurant", "cat": "dining", "img": "dining",
+      "en": "The Restaurant & Café", "ar": "المطعم والمقهى",
+      "hours_en": "Daily 08:00 – 22:00 · Atrium level", "hours_ar": "يومياً ٨:٠٠ ص – ١٠:٠٠ م · طابق البهو",
+      "d_en": "All-day menu with a terrace onto the festival space. The private dining room is bookable for events.",
+      "d_ar": "قائمة طوال اليوم مع تراس يطل على الساحة المركزية. قاعة الطعام الخاصة متاحة للحجز للمناسبات.",
+      "state": "open", "state_en": "Walk in", "state_ar": "دون حجز",
+      "body_en": [
+        "All-day dining off the atrium, with a terrace looking onto the festival space and the park beyond. No booking needed for the main room.",
+        "The private dining room seats forty and has its own service. It can be hired on its own or alongside the salon's treatment suite for a bridal party."
+      ],
+      "body_ar": [
+        "مطعم يعمل طوال اليوم بجانب البهو، مع تراس يطل على الساحة المركزية والحديقة. لا حاجة للحجز في القاعة الرئيسية.",
+        "تتسع قاعة الطعام الخاصة لأربعين ضيفة بخدمة مستقلة. يمكن تأجيرها وحدها أو مع جناح الصالون لحفلات العرائس."
+      ],
+      "services": [],
+      "facts": [
+        { "en": "Booking", "ar": "الحجز", "v_en": "Not needed for the main room", "v_ar": "غير مطلوب في القاعة الرئيسية" },
+        { "en": "Private room", "ar": "القاعة الخاصة", "v_en": "Seats 40", "v_ar": "تتسع لـ ٤٠" },
+        { "en": "Menus", "ar": "القوائم", "v_en": "Emirati, Levantine, European", "v_ar": "إماراتية، شامية، أوروبية" },
+        { "en": "Alcohol", "ar": "الكحول", "v_en": "Not served", "v_ar": "غير متوفر" }
+      ]
+    },
+    {
+      "id": "music-school", "cat": "learning", "img": "atrium",
+      "en": "The Music School", "ar": "مدرسة الموسيقى",
+      "hours_en": "Sat–Thu 15:00 – 20:00 · Level 2", "hours_ar": "السبت–الخميس ٣:٠٠ – ٨:٠٠ م · الطابق الثاني",
+      "d_en": "Piano, oud and voice, for children and adults, taught termly with a recital in the atrium.",
+      "d_ar": "بيانو وعود وغناء، للأطفال والكبار، بنظام الفصول مع حفل ختامي في البهو.",
+      "state": "open", "state_en": "Places open", "state_ar": "أماكن متاحة",
+      "body_en": [
+        "Individual and small-group tuition in piano, oud and voice, for children from six and for adults. Terms run alongside the academy's, so a family's timetable stays in one place.",
+        "Each term closes with a recital in the atrium. Performers' families are welcome; the club's photography rules apply to the audience as well as the stage."
+      ],
+      "body_ar": [
+        "دروس فردية ومجموعات صغيرة في البيانو والعود والغناء، للأطفال من سن ست سنوات وللكبار. الفصول موازية لفصول الأكاديمية، ليبقى جدول العائلة في مكان واحد.",
+        "يُختتم كل فصل بحفل في البهو. عائلات المشاركات مرحّب بهن، وتنطبق قواعد التصوير في النادي على الحضور كما على المسرح."
+      ],
+      "services": [],
+      "facts": [
+        { "en": "Instruments", "ar": "الآلات", "v_en": "Piano, oud, voice", "v_ar": "بيانو، عود، غناء" },
+        { "en": "Ages", "ar": "الأعمار", "v_en": "6 and over, and adults", "v_ar": "٦ سنوات فأكثر، والكبار" },
+        { "en": "Format", "ar": "النظام", "v_en": "Termly, individual or small group", "v_ar": "فصلي، فردي أو مجموعة صغيرة" },
+        { "en": "Recital", "ar": "الحفل الختامي", "v_en": "End of each term, in the atrium", "v_ar": "نهاية كل فصل، في البهو" }
+      ]
+    },
+    {
+      "id": "bishtek", "cat": "shops", "img": "lounge",
+      "en": "Bishtek", "ar": "بشتك",
+      "hours_en": "Until 30 September · Atrium", "hours_ar": "حتى ٣٠ سبتمبر · البهو",
+      "d_en": "Abaya and modest-wear pop-up, this month only, with alterations while you wait.",
+      "d_ar": "متجر مؤقت للعبايات والأزياء المحتشمة، هذا الشهر فقط، مع تعديلات فورية.",
+      "state": "ending", "state_en": "Ends 30 September", "state_ar": "ينتهي ٣٠ سبتمبر",
+      "body_en": [
+        "A pop-up in the atrium for September only. Abayas, kaftans and modest daywear, with a tailor on site for alterations while you wait.",
+        "Pop-ups carry an end date on this site and come off the page when they close. Nothing here outlives its own dates."
+      ],
+      "body_ar": [
+        "متجر مؤقت في البهو خلال سبتمبر فقط. عبايات وقفاطين وأزياء نهارية محتشمة، مع خياطة في الموقع للتعديلات الفورية.",
+        "المتاجر المؤقتة على هذا الموقع لها تاريخ انتهاء وتُزال من الصفحة عند إغلاقها. لا شيء هنا يبقى بعد انتهاء موعده."
+      ],
+      "services": [],
+      "facts": [
+        { "en": "Until", "ar": "حتى", "v_en": "30 September 2026", "v_ar": "٣٠ سبتمبر ٢٠٢٦" },
+        { "en": "Where", "ar": "المكان", "v_en": "Atrium, ground level", "v_ar": "البهو، الطابق الأرضي" },
+        { "en": "Alterations", "ar": "التعديلات", "v_en": "On site, while you wait", "v_ar": "في الموقع وفوراً" }
+      ]
+    },
+    {
+      "id": "kerastase-clinic", "cat": "beauty", "img": "dining",
+      "en": "Kérastase hair clinic", "ar": "عيادة كيراستاس للشعر",
+      "hours_en": "Thu 18 September · 17:00 · at Blusher", "hours_ar": "الخميس ١٨ سبتمبر · ٥:٠٠ م · في بلَشر",
+      "d_en": "A one-off consultation clinic with a visiting stylist. Free for members, twelve places.",
+      "d_ar": "عيادة استشارية ليوم واحد مع مصففة زائرة. مجانية للعضوات، اثنا عشر مقعداً.",
+      "state": "few", "state_en": "5 places left", "state_ar": "بقيت ٥ مقاعد",
+      "body_en": [
+        "A single afternoon clinic hosted inside Blusher: a scalp and hair consultation with a visiting stylist, plus a sample regimen to take away.",
+        "Free for members, twelve places, booked in the app. A visiting brand runs the session; the booking, the reminder and the cancellation are all the club's."
+      ],
+      "body_ar": [
+        "عيادة بعد الظهر ليوم واحد داخل صالون بلَشر: استشارة لفروة الرأس والشعر مع مصففة زائرة، مع عينات لروتين العناية.",
+        "مجانية للعضوات، اثنا عشر مقعداً، تُحجز عبر التطبيق. تدير الجلسة علامة زائرة، أما الحجز والتذكير والإلغاء فمن النادي."
+      ],
+      "services": [],
+      "facts": [
+        { "en": "When", "ar": "الموعد", "v_en": "Thu 18 Sep, 17:00", "v_ar": "الخميس ١٨ سبتمبر، ٥:٠٠ م" },
+        { "en": "Places", "ar": "المقاعد", "v_en": "12, five remaining", "v_ar": "١٢، بقيت ٥" },
+        { "en": "Cost", "ar": "التكلفة", "v_en": "Free for members", "v_ar": "مجانية للعضوات" }
+      ]
+    }
+  ],
+  "licence": {
+    "en": "Operated under licence at Abu Dhabi Ladies Club. Enquiries are answered by the club.",
+    "ar": "تعمل بترخيص داخل نادي أبوظبي للسيدات. الاستفسارات يجيب عنها النادي."
+  }
+}

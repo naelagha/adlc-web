@@ -1,0 +1,122 @@
+{
+  "brand": {
+    "en": "Ladies Club",
+    "ar": "نادي أبوظبي للسيدات",
+    "latin": "Abu Dhabi Ladies Club"
+  },
+  "address": {
+    "en": "15th Street, Al Muzoun, W53, Abu Dhabi",
+    "ar": "شارع ١٥، المزون، غرب ٥٣، أبوظبي"
+  },
+  "phone": "+971 50 260 6784",
+  "hours": {
+    "en": "Daily 06:00 – 21:00",
+    "ar": "يومياً ٦:٠٠ ص – ٩:٠٠ م"
+  },
+  "nav": [
+    {
+      "slug": "index",
+      "en": "Home",
+      "ar": "الرئيسية"
+    },
+    {
+      "slug": "membership",
+      "en": "Membership",
+      "ar": "العضوية"
+    },
+    {
+      "slug": "timetable",
+      "en": "Classes",
+      "ar": "الحصص"
+    },
+    {
+      "slug": "academy",
+      "en": "Academy",
+      "ar": "الأكاديمية"
+    },
+    {
+      "slug": "lagoon",
+      "en": "Facilities",
+      "ar": "المرافق"
+    },
+    {
+      "slug": "directory",
+      "en": "At the club",
+      "ar": "في النادي"
+    },
+    {
+      "slug": "events",
+      "en": "Events",
+      "ar": "الفعاليات"
+    },
+    {
+      "slug": "visit",
+      "en": "Visit",
+      "ar": "زيارتنا"
+    }
+  ],
+  "cta": {
+    "join": {
+      "en": "Join",
+      "ar": "انضمي"
+    },
+    "signin": {
+      "en": "Sign in",
+      "ar": "تسجيل الدخول"
+    },
+    "book": {
+      "en": "Book a trial",
+      "ar": "احجزي تجربة"
+    },
+    "seeall": {
+      "en": "See membership",
+      "ar": "اطّلعي على العضويات"
+    }
+  },
+  "home": {
+    "kicker": {
+      "en": "Women only · On the water",
+      "ar": "للسيدات فقط · على الماء"
+    },
+    "title": {
+      "en": "A club on the water, for women only",
+      "ar": "مساحةٌ لكِ وحدك، على الماء"
+    },
+    "lede": {
+      "en": "15th Street, Al Muzoun. Two pools, a private lagoon, three studios, a basketball court, a beach, a salon and spa, and the Fatima Bint Mubarak Academy — all behind one gate.",
+      "ar": "شارع ١٥، المزون. مسبحان، وبحيرة خاصة، وثلاث قاعات، وملعب كرة سلة، وشاطئ، وصالون وسبا، وأكاديمية فاطمة بنت مبارك — خلف بوابة واحدة."
+    },
+    "stats": [
+      {
+        "n": "2",
+        "en": "Pools",
+        "ar": "مسبحان",
+        "nar": "٢"
+      },
+      {
+        "n": "~50",
+        "en": "Classes weekly",
+        "ar": "حصة أسبوعياً",
+        "nar": "٥٠"
+      },
+      {
+        "n": "3",
+        "en": "Studios",
+        "ar": "قاعات",
+        "nar": "٣"
+      },
+      {
+        "n": "2018",
+        "en": "Opened",
+        "ar": "سنة الافتتاح",
+        "nar": "٢٠١٨"
+      }
+    ]
+  },
+  "footer": {
+    "note": {
+      "en": "Abu Dhabi Ladies Club. Women only. Boys welcome up to age 12.",
+      "ar": "نادي أبوظبي للسيدات. للسيدات فقط. الأولاد مرحّب بهم حتى سن ١٢."
+    }
+  }
+}

@@ -1,0 +1,209 @@
+{
+  "staff": { "name_en": "Mariam A.", "name_ar": "مريم أ.", "role_en": "Duty manager", "role_ar": "مديرة الدوام", "initials": "MA" },
+  "nav": [
+    { "id": "today",     "page": "console-today",     "en": "Today",     "ar": "اليوم",       "group": null },
+    { "id": "timetable", "page": "console-timetable", "en": "Timetable", "ar": "الجدول",      "group": null },
+    { "id": "inbox",     "page": "console-inbox",     "en": "Inbox",     "ar": "الوارد",      "group": null, "badge": 7 },
+    { "id": "broadcast", "page": "console-broadcast", "en": "Broadcast", "ar": "الإرسال",     "group": "ops" },
+    { "id": "reports",   "page": "console-reports",   "en": "Reports",   "ar": "التقارير",    "group": "insight" }
+  ],
+  "groups": { "ops": { "en": "Operations", "ar": "التشغيل" }, "insight": { "en": "Insight", "ar": "التحليل" } },
+  "demo": {
+    "en": "Prototype of the staff console. Figures are sample data, nothing is sent or stored, and no member record is real.",
+    "ar": "نموذج أولي لوحدة تحكم الموظفات. الأرقام بيانات تجريبية، ولا يُرسل أو يُحفظ شيء، ولا يوجد سجل عضوة حقيقي."
+  },
+  "today": {
+    "title_en": "Today", "title_ar": "اليوم",
+    "when_en": "Sunday 7 September · 07:42", "when_ar": "الأحد ٧ سبتمبر · ٧:٤٢ ص",
+    "tiles": [
+      { "en": "In the building", "ar": "داخل النادي", "v": 148, "sub_en": "Peak yesterday 212", "sub_ar": "الذروة أمس ٢١٢", "tone": "plain",
+        "spark": [32,48,66,54,71,88,60] },
+      { "en": "Leads unanswered", "ar": "استفسارات دون رد", "v": 7, "sub_en": "3 past the 4-hour SLA", "sub_ar": "٣ تجاوزت مهلة الأربع ساعات", "tone": "alert" },
+      { "en": "Renewals in 30 days", "ar": "تجديدات خلال ٣٠ يوماً", "v": 34, "sub_en": "9 flagged lapse-risk", "sub_ar": "٩ معرضات للانقطاع", "tone": "warn" },
+      { "en": "Class fill, week", "ar": "إشغال الحصص، الأسبوع", "v": "71%", "sub_en": "Up 4 points on last week", "sub_ar": "بزيادة ٤ نقاط عن الأسبوع الماضي", "tone": "plain" }
+    ],
+    "classes_en": "Classes today", "classes_ar": "حصص اليوم",
+    "needs_en": "Needs a person", "needs_ar": "تحتاج إلى تدخل",
+    "needs": [
+      { "sev": "now",   "en": "Aqua Fit 11:00", "ar": "تمارين مائية ١١:٠٠",
+        "d_en": "Rania called in sick · 14 booked", "d_ar": "رانيا في إجازة مرضية · ١٤ محجوزة",
+        "tag_en": "Now", "tag_ar": "الآن" },
+      { "sev": "now",   "en": "3 leads past SLA", "ar": "٣ استفسارات تجاوزت المهلة",
+        "d_en": "Oldest 19h · all asking about price", "d_ar": "أقدمها ١٩ ساعة · كلها تسأل عن السعر",
+        "tag_en": "Now", "tag_ar": "الآن" },
+      { "sev": "warn",  "en": "Indoor pool maintenance", "ar": "صيانة المسبح الداخلي",
+        "d_en": "Closes 14:00–16:00 · not yet announced", "d_ar": "إغلاق ٢:٠٠–٤:٠٠ م · لم يُعلن بعد",
+        "tag_en": "Today", "tag_ar": "اليوم" },
+      { "sev": "warn",  "en": "9 lapse-risk members", "ar": "٩ عضوات معرضات للانقطاع",
+        "d_en": "No visit in 45 days, renewal under 30", "d_ar": "دون زيارة منذ ٤٥ يوماً، والتجديد خلال ٣٠",
+        "tag_en": "This week", "tag_ar": "هذا الأسبوع" },
+      { "sev": "info",  "en": "October timetable", "ar": "جدول أكتوبر",
+        "d_en": "Due to publish in 12 days", "d_ar": "موعد النشر خلال ١٢ يوماً",
+        "tag_en": "Planned", "tag_ar": "مخطط" }
+    ]
+  },
+  "inbox": {
+    "title_en": "Inbox", "title_ar": "الوارد",
+    "sub_en": "7 open · 3 past SLA", "sub_ar": "٧ مفتوحة · ٣ تجاوزت المهلة",
+    "sources": [
+      { "id": "ig",  "en": "Instagram", "ar": "إنستغرام", "color": "#F26722", "abbr": "IG" },
+      { "id": "wa",  "en": "WhatsApp",  "ar": "واتساب",   "color": "#2C6FA8", "abbr": "WA" },
+      { "id": "web", "en": "Web form",  "ar": "نموذج الموقع", "color": "#0E9B8E", "abbr": "WB" }
+    ],
+    "threads": [
+      { "src": "ig",  "who": "@noura_ad",  "sla_en": "19h past", "sla_ar": "متأخر ١٩ س", "hot": true, "sel": true,
+        "msg": "كم الاشتراك الشهري و السنوي و هل في خصم", "ar_msg": true,
+        "ctx_en": "Comment on \"FREE ACCESS\" · 20 August", "ctx_ar": "تعليق على منشور «FREE ACCESS» · ٢٠ أغسطس" },
+      { "src": "ig",  "who": "@sara.k",    "sla_en": "16h past", "sla_ar": "متأخر ١٦ س", "hot": true,
+        "msg": "Can we all have more details" },
+      { "src": "ig",  "who": "@um_hamad",  "sla_en": "11h past", "sla_ar": "متأخر ١١ س", "hot": true,
+        "msg": "اي يوم؟", "ar_msg": true },
+      { "src": "ig",  "who": "@laila.m",   "sla_en": "3h 10m", "sla_ar": "٣ س ١٠ د", "warm": true,
+        "msg": "Can I have more details" },
+      { "src": "wa",  "who": "+971 55 ••• 412", "sla_en": "2h 44m", "sla_ar": "٢ س ٤٤ د", "warm": true,
+        "msg": "Do you have a ladies swimming class for beginners?" },
+      { "src": "wa",  "who": "+971 50 ••• 907", "sla_en": "51m", "sla_ar": "٥١ د",
+        "msg": "هل يوجد اشتراك عائلي؟", "ar_msg": true },
+      { "src": "web", "who": "Trial booking · Hessa A.", "sla_en": "18m", "sla_ar": "١٨ د",
+        "msg": "Requested Thu 11 Sep, 18:00" }
+    ],
+    "reply_draft": "أهلاً بكِ نورة 🌸 باقات العضوية والأسعار كاملة هنا: adlc.ae/membership — وفيه خصم ١٠٪ على الاشتراك السنوي حتى ٣٠ سبتمبر. تحبين نحجز لكِ جولة؟",
+    "draft_note_en": "Draft · not sent", "draft_note_ar": "مسودة · لم تُرسل",
+    "saved_en": "Saved replies", "saved_ar": "ردود محفوظة",
+    "saved": [
+      { "en": "Prices · AR", "ar": "الأسعار · عربي" }, { "en": "Prices · EN", "ar": "الأسعار · إنجليزي" },
+      { "en": "Trial booking", "ar": "حجز تجربة" }, { "en": "Opening hours", "ar": "المواعيد" },
+      { "en": "Kids academy", "ar": "أكاديمية الأطفال" }, { "en": "Family package", "ar": "باقة العائلة" }
+    ],
+    "public_en": "Send public reply", "public_ar": "إرسال رد علني",
+    "assign_en": "Assign", "assign_ar": "إسناد",
+    "breach_en": "SLA breached · 19h", "breach_ar": "تجاوز المهلة · ١٩ ساعة",
+    "note_en": "Public reply is the default action, not a DM. One public answer serves everyone who was too polite to ask.",
+    "note_ar": "الرد العلني هو الإجراء الافتراضي وليس الرسالة الخاصة. إجابة علنية واحدة تخدم كل من ترددت في السؤال."
+  },
+  "reports": {
+    "title_en": "Reports · class performance", "title_ar": "التقارير · أداء الحصص",
+    "period_en": "1–30 August 2026", "period_ar": "١–٣٠ أغسطس ٢٠٢٦",
+    "occ_en": "Occupancy by slot", "occ_ar": "الإشغال حسب الموعد",
+    "occ_sub_en": "Share of capacity booked · August average", "occ_sub_ar": "نسبة الإشغال · متوسط أغسطس",
+    "slots": ["08:00","09:00","10:00","11:00","18:00","19:00","20:00"],
+    "grid": [
+      [58,44,61,47,55,22,39],
+      [76,63,79,66,72,41,57],
+      [64,59,62,57,60,45,66],
+      [43,38,41,29,36,24,48],
+      [94,81,91,83,88,46,74],
+      [82,77,80,75,79,null,68],
+      [49,42,46,null,44,null,33]
+    ],
+    "legend_en": "Occupancy", "legend_ar": "الإشغال",
+    "bands": ["0–35%","36–50%","51–70%","71–85%","86–100%"],
+    "noclass_en": "no class", "noclass_ar": "لا توجد حصة",
+    "reading_en": "Evening is nearly full and late morning is half empty, every day of the week. The club is not short of demand; it is short of capacity between 18:00 and 20:00, and running classes at 11:00 that few people want.",
+    "reading_ar": "المساء شبه ممتلئ وأواخر الصباح نصف فارغة، كل أيام الأسبوع. النادي لا يعاني نقص الطلب بل نقص السعة بين ٦:٠٠ و٨:٠٠ مساءً، ويشغّل حصصاً في ١١:٠٠ لا يريدها كثيرات.",
+    "instructors_en": "Fill rate by instructor", "instructors_ar": "نسبة الإشغال حسب المدربة",
+    "instructors": [
+      { "en": "Firyal Mansour", "ar": "فريال منصور", "v": 89 },
+      { "en": "Hajar Ben Ali", "ar": "هاجر بن علي", "v": 84 },
+      { "en": "Nesrine Kadi", "ar": "نسرين قاضي", "v": 81 },
+      { "en": "Alena Petrova", "ar": "ألينا بيتروفا", "v": 66 },
+      { "en": "Rania Saad", "ar": "رانيا سعد", "v": 58 },
+      { "en": "Sara Haddad", "ar": "سارة حداد", "v": 41 }
+    ],
+    "inst_note_en": "One series, so no legend — the panel title names it. Read alongside the slot grid: Sara teaches mostly 11:00.",
+    "inst_note_ar": "سلسلة واحدة، فلا حاجة لمفتاح — عنوان اللوحة يسمّيها. اقرئيها مع شبكة المواعيد: سارة تدرّس غالباً في ١١:٠٠.",
+    "leads_en": "Where leads come from", "leads_ar": "مصادر الاستفسارات",
+    "leads_sub_en": "August · 214 enquiries", "leads_sub_ar": "أغسطس · ٢١٤ استفساراً",
+    "leads": [
+      { "src": "ig",  "n": 121, "median_en": "9h 40m", "median_ar": "٩ س ٤٠ د", "conv": 11 },
+      { "src": "wa",  "n": 68,  "median_en": "2h 15m", "median_ar": "٢ س ١٥ د", "conv": 19 },
+      { "src": "web", "n": 25,  "median_en": "1h 05m", "median_ar": "١ س ٥ د",  "conv": 12 }
+    ],
+    "col_source_en": "Source", "col_source_ar": "المصدر",
+    "col_enq_en": "Enquiries", "col_enq_ar": "الاستفسارات",
+    "col_reply_en": "Median reply", "col_reply_ar": "وسيط الرد",
+    "col_conv_en": "Converted", "col_conv_ar": "تحوّلن",
+    "leads_note_en": "Instagram brings the most enquiries and converts the worst, and the reply time explains why. Same data as the bars, as a table — every chart here has one.",
+    "leads_note_ar": "إنستغرام يجلب أكثر الاستفسارات وأقلها تحوّلاً، ووقت الرد يفسر السبب. البيانات نفسها كجدول — لكل رسم بياني هنا جدول."
+  },
+  "broadcast": {
+    "title_en": "New broadcast", "title_ar": "رسالة جديدة",
+    "audience_en": "Who gets this", "audience_ar": "من يستلمها",
+    "audiences": [
+      { "id": "affected", "en": "Booked on affected classes", "ar": "المحجوزات في الحصص المتأثرة", "reach": 41, "push": 38, "wa": 3, "sel": true },
+      { "id": "tier",     "en": "By tier", "ar": "حسب الفئة", "reach": 612, "push": 548, "wa": 64 },
+      { "id": "all",      "en": "All members", "ar": "جميع العضوات", "reach": 1840, "push": 1622, "wa": 218 },
+      { "id": "lapsed",   "en": "Lapsed", "ar": "المنقطعات", "reach": 203, "push": 151, "wa": 52 }
+    ],
+    "affected_en": "Indoor pool · Sun 7 Sep · 14:00–16:00 · 3 classes, 41 members booked",
+    "affected_ar": "المسبح الداخلي · الأحد ٧ سبتمبر · ٢:٠٠–٤:٠٠ م · ٣ حصص، ٤١ عضوة محجوزة",
+    "en_label": "English", "ar_label": "العربية",
+    "msg_en_title": "Indoor pool closed 14:00–16:00 today",
+    "msg_en_body": "Scheduled maintenance. Aqua Fit at 14:30 is cancelled and refunded to your account. The outdoor pool and lagoon are open as normal.",
+    "msg_ar_title": "إغلاق المسبح الداخلي اليوم من ٢:٠٠ إلى ٤:٠٠ مساءً",
+    "msg_ar_body": "أعمال صيانة. حصة التمارين المائية ٢:٣٠ ملغاة وسيُعاد الرصيد إلى حسابك. المسبح الخارجي والبحيرة يعملان كالمعتاد.",
+    "channels_en": "Channels", "channels_ar": "القنوات",
+    "channels": [
+      { "en": "App push", "ar": "إشعار التطبيق", "on": true },
+      { "en": "In-app alert", "ar": "تنبيه داخل التطبيق", "on": true },
+      { "en": "WhatsApp", "ar": "واتساب", "on": true },
+      { "en": "SMS", "ar": "رسالة نصية", "on": false },
+      { "en": "Email", "ar": "بريد إلكتروني", "on": false }
+    ],
+    "preview_en": "Preview", "preview_ar": "معاينة",
+    "reach_en": "Reach", "reach_ar": "الوصول",
+    "r_audience_en": "In audience", "r_audience_ar": "في الشريحة",
+    "r_push_en": "Reachable by push", "r_push_ar": "عبر الإشعارات",
+    "r_wa_en": "WhatsApp fallback", "r_wa_ar": "بديل واتساب",
+    "r_total_en": "Total reached", "r_total_ar": "الإجمالي",
+    "compare_en": "Compare with a poster: 23,000 followers, and no idea which of the {n} saw it.",
+    "compare_ar": "قارنيها بمنشور: ٢٣٬٠٠٠ متابع، دون معرفة من رآه من الـ{n}.",
+    "send_en": "Review & send", "send_ar": "مراجعة وإرسال",
+    "note_en": "Audience defaults to the members affected, not everyone. Both languages are required fields, so an Arabic-first member never receives an English-only operational message.",
+    "note_ar": "الشريحة الافتراضية هي المتأثرات فقط لا الجميع. اللغتان حقلان إلزاميان، فلا تصل العضوة العربية رسالة تشغيلية بالإنجليزية وحدها."
+  },
+  "cms": {
+    "title_en": "Timetable · week of 7 Sep", "title_ar": "الجدول · أسبوع ٧ سبتمبر",
+    "draft_en": "Draft · 3 unpublished changes", "draft_ar": "مسودة · ٣ تغييرات غير منشورة",
+    "publish_en": "Publish", "publish_ar": "نشر",
+    "dup_en": "Duplicate last week", "dup_ar": "نسخ الأسبوع الماضي",
+    "studio_en": "Studio Hall", "studio_ar": "القاعة الرئيسية",
+    "hint_en": "Click a class to edit", "hint_ar": "اضغطي على حصة لتحريرها",
+    "editing_en": "Muscle Pump · Sun 18:00", "editing_ar": "عضلات وقوة · الأحد ٦:٠٠ م",
+    "fields": {
+      "name_en": "Class", "name_ar": "اسم الحصة",
+      "namear_en": "Arabic name", "namear_ar": "الاسم بالعربية",
+      "start_en": "Start", "start_ar": "البداية",
+      "mins_en": "Minutes", "mins_ar": "الدقائق",
+      "cap_en": "Capacity", "cap_ar": "السعة",
+      "cat_en": "Category", "cat_ar": "الفئة",
+      "coach_en": "Instructor", "coach_ar": "المدربة",
+      "repeat_en": "Repeats", "repeat_ar": "التكرار"
+    },
+    "values": {
+      "name": "Muscle Pump", "namear": "عضلات وقوة", "start": "18:00", "mins": "45",
+      "cap": "18", "cat_en": "Strength", "cat_ar": "قوة",
+      "coach_en": "Firyal Mansour", "coach_ar": "فريال منصور",
+      "repeat_en": "Sun, Tue, Thu · until 11 Dec", "repeat_ar": "الأحد والثلاثاء والخميس · حتى ١١ ديسمبر"
+    },
+    "targets_en": "Publishes to", "targets_ar": "يُنشر إلى",
+    "targets": [
+      { "en": "Website timetable", "ar": "جدول الموقع", "on": true },
+      { "en": "Member app", "ar": "تطبيق العضوات", "on": true },
+      { "en": "Instagram poster · auto-rendered", "ar": "منشور إنستغرام · يُولَّد تلقائياً", "on": true },
+      { "en": "Push notification to members", "ar": "إشعار للعضوات", "on": false }
+    ],
+    "poster_en": "Auto-rendered poster", "poster_ar": "المنشور المولَّد تلقائياً",
+    "poster_sub_en": "Regenerates on every publish", "poster_sub_ar": "يُعاد توليده مع كل نشر",
+    "poster_title_en": "Studio Hall · Week of 7 Sep", "poster_title_ar": "القاعة الرئيسية · أسبوع ٧ سبتمبر",
+    "poster_foot_en": "ADLC · BOOK IN THE APP", "poster_foot_ar": "نادي أبوظبي للسيدات · احجزي في التطبيق",
+    "why": [
+      { "en": "The poster is generated from the same records that feed the website and the app. It cannot drift from the schedule, because there is nothing to retype.",
+        "ar": "يُولَّد المنشور من السجلات نفسها التي تغذّي الموقع والتطبيق. لا يمكن أن يخالف الجدول، لأنه لا يوجد ما يُعاد كتابته." },
+      { "en": "Type is set live, so every class name is real text: searchable, readable by a screen reader, and translatable — the three things the current JPEG cannot do.",
+        "ar": "النصوص تُركَّب مباشرة، فكل اسم حصة نص حقيقي: قابل للبحث والقراءة الصوتية والترجمة — وهي ثلاثة أمور لا تستطيعها الصورة الحالية." },
+      { "en": "Note what is not ticked: the push. A routine schedule edit should not buzz four thousand phones.",
+        "ar": "لاحظي ما هو غير مفعّل: الإشعار. تعديل روتيني في الجدول لا ينبغي أن يُنبّه أربعة آلاف هاتف." }
+    ]
+  }
+}
