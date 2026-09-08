@@ -610,5 +610,27 @@
       "en": "Places",
       "ar": "الأماكن"
     }
+  },
+  "illustrations": {
+    "label": {
+      "en": "Illustration",
+      "ar": "رسم توضيحي"
+    },
+    "pool": {
+      "en": "Line illustration of a pool surface, lane ropes and rippled water",
+      "ar": "رسم خطي لسطح المسبح وحبال المسارات وتموّج الماء"
+    },
+    "weights": {
+      "en": "Line illustration of racked barbells and weight plates",
+      "ar": "رسم خطي لحوامل الأثقال والأقراص"
+    },
+    "mats": {
+      "en": "Line illustration of rolled exercise mats seen end-on, with a single flower",
+      "ar": "رسم خطي لحصائر تمارين ملفوفة، بينها زهرة واحدة"
+    },
+    "palms": {
+      "en": "Line illustration looking up into a canopy of date palm fronds",
+      "ar": "رسم خطي ينظر إلى أعلى نحو سعف النخيل"
+    }
   }
 }

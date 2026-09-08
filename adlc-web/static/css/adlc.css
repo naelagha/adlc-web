@@ -894,3 +894,19 @@ body.console{background:var(--ground)}
 /* days with nothing on them are shown, not hidden */
 .emptyday{display:flex;justify-content:space-between;gap:1rem;padding:.55rem .8rem;font-size:.8rem;
   color:var(--muted);border:1px dashed var(--line);border-radius:var(--r-sm)}
+
+/* ============================================================
+   ILLUSTRATION BAND
+   Line illustration, per the kit's imagery rule — it covers what
+   photography can't without pretending to be a photograph of the
+   club's actual rooms. Decorative: the page reads without it.
+   ============================================================ */
+.illo{position:relative;block-size:clamp(120px,17vw,190px);overflow:hidden;
+  border-block:1px solid var(--line);background:var(--surface-2)}
+.illo img{inline-size:100%;block-size:100%;object-fit:cover;object-position:50% 50%;display:block}
+.illo::after{content:"";position:absolute;inset:0;
+  background:linear-gradient(90deg,rgba(251,248,244,.55),rgba(251,248,244,0) 38%,rgba(251,248,244,0) 62%,rgba(251,248,244,.55))}
+.illo figcaption{position:absolute;z-index:1;inset-block-end:.5rem;inset-inline-end:.8rem;
+  font-family:var(--f-mono);font-size:.56rem;letter-spacing:.1em;text-transform:uppercase;
+  color:var(--muted);background:rgba(251,248,244,.8);padding:.14rem .4rem;border-radius:var(--r-xs)}
+[dir="rtl"] .illo figcaption{font-family:var(--f-ui-ar);letter-spacing:0;text-transform:none;font-size:.68rem}

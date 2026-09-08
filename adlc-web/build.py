@@ -38,6 +38,23 @@ def num(v, lang):
 
 
 
+
+# Fonts are requested per language. Both scripts appear on both sides — the
+# English lockup carries the Arabic name, the Arabic lockup carries the Latin
+# one — so neither list is trivially half. What IS unused is Almarai on an
+# English page: Arabic display type only appears under [dir="rtl"].
+_FONTS_COMMON = ["IBM+Plex+Mono:wght@400;500",
+                 "IBM+Plex+Sans:wght@400;500;600",
+                 "IBM+Plex+Sans+Arabic:wght@400;500;600;700",
+                 "Bodoni+Moda:opsz,wght@6..96,400;6..96,500"]
+
+def fonts_href(lang):
+    fams = list(_FONTS_COMMON)
+    if lang == "ar":
+        fams.insert(0, "Almarai:wght@400;700;800")
+    return ("https://fonts.googleapis.com/css2?"
+            + "&amp;".join("family=" + f for f in fams) + "&amp;display=swap")
+
 def asset(rel):
     """Static URL with a short content hash, so a changed file is a new URL."""
     f = STATIC / rel
@@ -73,7 +90,7 @@ def head(title, lang, desc, extra_css=""):
 <link rel="alternate" hreflang="{'en' if rtl else 'ar'}" href="../{'en' if rtl else 'ar'}/">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Almarai:wght@400;700;800&amp;family=Bodoni+Moda:opsz,wght@6..96,400;6..96,500&amp;family=IBM+Plex+Mono:wght@400;500&amp;family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&amp;family=IBM+Plex+Sans:wght@400;500;600&amp;display=swap">
+<link rel="stylesheet" href="{fonts_href(lang)}">
 <link rel="icon" href="/static/brand/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/static/brand/app-icon.svg">
 <link rel="stylesheet" href="{asset('css/adlc.css')}">
@@ -122,6 +139,15 @@ def footer(lang):
 </body></html>"""
 
 # ---------- pages ----------
+
+def illo(name, lang):
+    """A decorative illustration band. Real <img> so it carries alt text and
+    can be lazy-loaded — the four photographs are CSS backgrounds and cannot."""
+    d = PAGES["illustrations"]
+    return ('<figure class="illo"><img src="{src}" alt="{alt}" width="800" height="447" '
+            'loading="lazy" decoding="async"><figcaption>{cap}</figcaption></figure>').format(
+        src=asset("img/illo-%s.jpg" % name), alt=E(t(d[name], lang)), cap=E(t(d["label"], lang)))
+
 def page_home(lang):
     h, rtl = SITE["home"], lang == "ar"
     stats = "".join("<div><b>%s</b><span>%s</span></div>" %
@@ -263,6 +289,7 @@ def page_timetable(lang):
         + header(lang, "timetable")
         + f"""<div class="wrap">
 <div class="page-head"><h1>{E(t(tt['title'], lang))}</h1><p>{E(t(tt['lede'], lang))}</p></div>
+{illo("weights", lang)}
 <div data-filterable>
   <div class="filters">
     <div class="filter-row"><span class="lab">{E(f['day_ar'] if lang=='ar' else f['day_en'])}</span>{"".join(daychips)}</div>
@@ -296,6 +323,7 @@ def page_membership(lang):
         + header(lang, "membership")
         + f"""<div class="wrap">
 <div class="page-head"><h1>{E(t(m['title'], lang))}</h1><p>{E(t(m['lede'], lang))}</p></div>
+{illo("mats", lang)}
 <section class="block"><div class="tiers">{"".join(cards)}</div>
 <p class="note">{E(t(m['note'], lang))}</p></section>
 </div>"""
@@ -333,6 +361,7 @@ def page_visit(lang):
         + header(lang, "visit")
         + f"""<div class="wrap">
 <div class="page-head"><h1>{E(t(v['title'], lang))}</h1><p>{E(t(v['lede'], lang))}</p></div>
+{illo("pool", lang)}
 <section class="block"><ul class="kv">{rows}</ul></section>
 </div>"""
         + footer(lang))
@@ -813,6 +842,7 @@ def page_academy(lang):
     return (head(f"{t(a['title'],lang)} · {t(SITE['brand'],lang)}", lang, t(a['lede'], lang))
         + header(lang, "academy")
         + _partner_band(lang)
+        + illo("palms", lang)
         + f"""<div class="wrap">
 <div class="page-head"><h1>{E(t(a['title'], lang))}</h1><p>{E(t(a['lede'], lang))}</p></div>
 {"".join(blocks)}
@@ -1501,7 +1531,9 @@ def build():
         '<!doctype html><meta charset="utf-8">'
         '<meta http-equiv="refresh" content="0; url=en/index.html">'
         '<link rel="canonical" href="en/index.html">'
-        '<p>Redirecting to <a href="en/index.html">Abu Dhabi Ladies Club</a>.</p>',
+        '<title>Abu Dhabi Ladies Club</title>'
+        '<h1>Abu Dhabi Ladies Club</h1>'
+        '<p>Redirecting to <a href="en/index.html">the English site</a>, or go to <a href="ar/index.html" lang="ar">الموقع بالعربية</a>.</p>',
         encoding="utf-8")
     # --- deploy artefacts -------------------------------------------------
     # This is unreleased client work: a reconstructed mark, photography on an
