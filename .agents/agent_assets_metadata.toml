@@ -1,0 +1,72 @@
+uploads = []
+generated = []
+
+[[outputs]]
+id = "3JqTgT8EbMPzTKpPD-n1D"
+uri = "file://deliverables/adlc-official-logo-reconstruction.svg"
+type = "image"
+title = "ADLC Official Logo Reconstruction — SVG"
+description = "Editable scalable vector reconstruction based on the official Instagram reference."
+logical_id = "365abedb-6eee-49c2-ad6d-387b5cdc7469"
+content_hash = "sha256:484026836df2c8e80c63d80f698058843d31d48977858384d689bcb0843801bc"
+size = 2444
+mtime_ms = 1788839349462
+storage_uri = "gcs://replit-rams-assets-pike/rams/assets/repl:4038b8ce-94d8-4190-b763-6c5978d1ea4e/365abedb-6eee-49c2-ad6d-387b5cdc7469/ad3751fb-e1ac-4057-a323-cdcef98f956f"
+storage_version_token = "1788839378546852"
+content_type = "image/svg+xml"
+
+[[outputs]]
+id = "k3ieficAcsda4EiZ1Y06Y"
+uri = "file://deliverables/adlc-official-logo-reconstruction.png"
+type = "image"
+title = "ADLC Official Logo Reconstruction — PNG"
+description = "High-resolution 1600 × 1600 PNG preview and export."
+logical_id = "3d7349e2-4a68-4aea-8cbb-150ae260da63"
+content_hash = "sha256:988eb0c379b8d6a174b14db3698430a7de95b7b028e7d3d2ba9f13a08294718f"
+size = 750617
+mtime_ms = 1788839359934
+storage_uri = "gcs://replit-rams-assets-pike/rams/assets/repl:4038b8ce-94d8-4190-b763-6c5978d1ea4e/3d7349e2-4a68-4aea-8cbb-150ae260da63/0126ccb1-0faf-44df-844e-8005d42a8d5e"
+storage_version_token = "1788839382912130"
+content_type = "image/png"
+
+[[outputs]]
+id = "Xl8VuqBzCpPlhKpYc5Qcn"
+uri = "file://deliverables/adlc-official-logo-restored-final.png"
+type = "image"
+title = "ADLC Official Logo — Corrected Restoration"
+description = "Faithful high-resolution restoration based directly on the uploaded Instagram logo, without the earlier redesign."
+logical_id = "48a27994-b8a4-4c1c-a572-3c949a19b66a"
+content_hash = "sha256:65dbfefb24b77f37b0e8a4fbac804781c5f72779cc1e021c9ddf88fe8bd58900"
+size = 703876
+mtime_ms = 1788839580810
+storage_uri = "gcs://replit-rams-assets-pike/rams/assets/repl:4038b8ce-94d8-4190-b763-6c5978d1ea4e/48a27994-b8a4-4c1c-a572-3c949a19b66a/d010cfb5-d44f-4c46-8389-c6f225b11bc5"
+storage_version_token = "1788839608080572"
+content_type = "image/png"
+
+[[outputs]]
+id = "XDHpiusB3dPkqXYacbrGH"
+uri = "file://deliverables/adlc-official-logo-web-horizontal.png"
+type = "image"
+title = "ADLC Website Logo — Horizontal"
+description = "Transparent horizontal lockup now installed in the website header."
+logical_id = "d611558e-d4f9-4ff4-a5af-764f97d2307e"
+content_hash = "sha256:70c4562d56e8c60ec0dee5b863534abaea006c3f0cb2ef56bc14ffebbf6047b7"
+size = 93018
+mtime_ms = 1788839824062
+storage_uri = "gcs://replit-rams-assets-pike/rams/assets/repl:4038b8ce-94d8-4190-b763-6c5978d1ea4e/d611558e-d4f9-4ff4-a5af-764f97d2307e/50bd63d2-21d0-46ff-bc82-2115f59974e1"
+storage_version_token = "1788839873420924"
+content_type = "image/png"
+
+[[outputs]]
+id = "2EVE9LQbuf175KFUcHSqQ"
+uri = "file://deliverables/adlc-official-logo-web-round.png"
+type = "image"
+title = "ADLC Website Logo — Round"
+description = "Transparent-corner circular version for footers, social links, and other website placements."
+logical_id = "4c0c7550-284b-406c-9dab-93cc66e15581"
+content_hash = "sha256:16dc8659ecff26688621504c6a44d893528ea05af516cd997d7ad6fdb46806c6"
+size = 642734
+mtime_ms = 1788839773502
+storage_uri = "gcs://replit-rams-assets-pike/rams/assets/repl:4038b8ce-94d8-4190-b763-6c5978d1ea4e/4c0c7550-284b-406c-9dab-93cc66e15581/fd25e443-4dea-41bc-8504-9ae8fd71d107"
+storage_version_token = "1788839877595445"
+content_type = "image/png"

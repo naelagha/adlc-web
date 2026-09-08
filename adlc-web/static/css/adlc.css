@@ -80,12 +80,7 @@ a{color:var(--action);text-underline-offset:2px}
 .site-head{background:var(--surface);border-block-end:1px solid var(--line);position:sticky;inset-block-start:0;z-index:20}
 .head-in{display:flex;align-items:center;gap:1.2rem;padding-block:.8rem;flex-wrap:wrap}
 .lockup{display:flex;align-items:center;gap:.6rem;text-decoration:none;flex:none}
-.lockup svg{width:32px;height:32px;flex:none}
-.lockup .nm{line-height:1.15}
-.lockup .nm b{display:block;font-family:var(--f-disp);font-weight:500;font-size:.92rem;letter-spacing:.12em;text-transform:uppercase;color:var(--plum-900)}
-[dir="rtl"] .lockup .nm b{font-family:var(--f-disp-ar);font-weight:800;letter-spacing:0;text-transform:none;font-size:.95rem}
-.lockup .nm em{display:block;font-style:normal;font-family:var(--f-ui-ar);font-size:.74rem;color:var(--ink-2)}
-[dir="rtl"] .lockup .nm em{font-family:var(--f-disp);font-size:.6rem;letter-spacing:.14em;text-transform:uppercase;color:var(--gold-600)}
+.lockup img{display:block;width:176px;height:auto;max-height:44px;object-fit:contain}
 .site-nav{display:flex;gap:1.1rem;list-style:none;margin:0;padding:0;font-size:.86rem}
 .site-nav a{color:var(--ink-2);text-decoration:none;padding-block:.2rem;display:inline-block}
 .site-nav a:hover{color:var(--action)}

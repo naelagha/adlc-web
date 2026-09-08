@@ -108,11 +108,9 @@ def header(lang, current):
             cur=' aria-current="page"' if n["slug"] == current else "",
             label=E(t(n, lang)))
         for n in SITE["nav"])
-    brand_main = E(SITE["brand"]["ar"] if lang == "ar" else SITE["brand"]["en"])
-    brand_sub  = E(SITE["brand"]["latin"] if lang == "ar" else SITE["brand"]["ar"])
     return f"""<header class="site-head">
 <div class="wrap head-in">
-  <a class="lockup" href="index.html">{MARK}<span class="nm"><b>{brand_main}</b><em>{brand_sub}</em></span></a>
+  <a class="lockup" href="index.html"><img src="{asset('brand/adlc-official-horizontal.png')}" alt="Abu Dhabi Ladies Club — نادي أبوظبي للسيدات"></a>
   <nav aria-label="{'التنقل الرئيسي' if lang=='ar' else 'Main'}"><ul class="site-nav">{nav}</ul></nav>
   <div class="head-cta">
     <a class="lang" href="../{other}/{'index.html' if current=='index' else current+'.html'}" lang="{other}">{'EN' if lang=='ar' else 'ع'}</a>
